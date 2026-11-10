@@ -51,8 +51,8 @@
 
 <section id="l-en" lang="en">
 <h1>Privacy Policy</h1>
-<div class="muted">Effective date: 2 November 2026.</div>
-<p>NumExpress (the “Game”) is a number-finding game for iOS and Android made by Samir Novruzov (“we”, “us”). This policy explains what information the Game handles and why. We keep it simple: the Game has no accounts, no sign-in and no servers of its own.</p>
+<div class="muted">Effective date: 10 November 2026.</div>
+<p>NumExpress (the “Game”) is a number-finding game for iOS and Android made by Samir Novruzov (“we”, “us”). This policy explains what information the Game handles and why. We keep it simple: you never sign up, and the Game never asks for your email, phone number or a password. The only thing kept on our server is your entry in the world records (section 3).</p>
 
 <h2>1. Information stored only on your device</h2>
 <p>The Game saves the following on your phone so it can remember your progress. It never leaves your device and we cannot see it:</p>
@@ -64,6 +64,7 @@
   <tr><td>Number of Zen hints and whether “No ads” was bought</td><td>Game features</td></tr>
 </table></div>
 <p>Deleting the Game deletes all of this.</p>
+<p>On iPhone your map stars and records are also copied to your own iCloud account (Apple iCloud key-value storage), so a new iPhone or a reinstall keeps your progress. We cannot see this copy; it is covered by the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a>. On Android the system backup to your Google account may keep a copy in the same way.</p>
 
 <h2>2. Advertising (Google AdMob)</h2>
 <p>The Game shows rewarded video ads only when you choose to watch one (“Catch the train”, Zen hints). Ads are provided by Google AdMob. To show and measure ads, the Google Mobile Ads SDK may collect:</p>
@@ -76,39 +77,50 @@
 <p>This data is collected and processed by Google under the <a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a>. See also <a href="https://policies.google.com/technologies/partner-sites?hl=en">how Google uses information from apps that use its services</a>. We do not receive this data in a form that identifies you.</p>
 <p><strong>Your choices.</strong> On iOS the Game asks for permission before ads may use your advertising identifier; you can change this any time in Settings → Privacy &amp; Security → Tracking. On Android you can reset or delete your Advertising ID in Settings → Google → Ads (or Settings → Privacy → Ads). In the European Economic Area, the United Kingdom and Switzerland the Game asks for your consent to personalised ads before showing any; you can change your choice later from the Game. If you decline, you may still see non-personalised ads.</p>
 
-<h2>3. Purchases</h2>
+<h2 id="world-en">3. World records (online)</h2>
+<p>To show world records shared by iPhone and Android players, the Game creates an anonymous account for your device with Google Firebase (no email, phone or password) and sends our server:</p>
+<ul>
+  <li>a random account ID and a number tag, so your line on the boards is yours (shown as “Rider 4821” until you pick a nickname);</li>
+  <li>the nickname you choose, if any — it is shown publicly on the boards;</li>
+  <li>your best scores in Classic, Chaos and Route, with the time of the ride, its length and how many numbers you found, so the server can reject impossible scores;</li>
+  <li>reports you send about other players’ nicknames.</li>
+</ul>
+<p>This data is stored for us by Google Firebase (Cloud Firestore and Cloud Functions, region europe-west1, Belgium) and is encrypted in transit. Other players see your nickname (or “Rider” tag) and scores, nothing else. Zen results, settings and everything in section 1 stay on your phone. To run the service Firebase also processes technical data such as your IP address; see the <a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a> and <a href="https://firebase.google.com/support/privacy">Firebase privacy information</a>.</p>
+<p><strong>Deleting your data.</strong> In the Game open <b>CONTROL ROOM → WORLD RECORDS → DELETE MY ONLINE DATA</b>: your nickname, scores and anonymous account are removed from the server straight away. You can also write to us (see Contact) and we will delete them. Nicknames reported by several players are removed automatically.</p>
+
+<h2>4. Purchases</h2>
 <p>The optional “No ads” purchase is handled entirely by the App Store (Apple) or Google Play. We do not receive your name, payment card or billing details — only a confirmation that the purchase was made, so the Game can unlock it. See the <a href="https://www.apple.com/legal/privacy/">Apple Privacy Policy</a> and the <a href="https://policies.google.com/privacy?hl=en">Google Privacy Policy</a>.</p>
 
-<h2>4. Notifications</h2>
+<h2>5. Notifications</h2>
 <p>If you turn on the daily reminder, the Game schedules it on your phone. No server is involved and no notification data is sent anywhere. You can turn it off in the Game (Control room) or in your phone’s settings.</p>
 
-<h2>5. What we do not do</h2>
+<h2>6. What we do not do</h2>
 <ul>
   <li>We do not ask for your name, email, phone number, contacts, photos, camera, microphone or precise location.</li>
   <li>We do not run our own analytics and do not sell personal data.</li>
-  <li>We do not create accounts or user profiles.</li>
+  <li>We do not ask you to sign up; the anonymous world-records account (section 3) holds no personal details.</li>
 </ul>
 
-<h2>6. Children</h2>
+<h2>7. Children</h2>
 <p>The Game is suitable for a general audience but is not directed at children under 13, and we do not knowingly collect personal information from them. If you believe a child has provided personal information through the Game, contact us and we will help remove it.</p>
 
-<h2>7. Your rights</h2>
+<h2>8. Your rights</h2>
 <p>Depending on where you live (for example under the GDPR in Europe or the CCPA in California) you may have the right to access, correct or delete personal data and to object to its processing. Because we do not store personal data ourselves, most requests are best directed to Google for ad data (<a href="https://myaccount.google.com/data-and-privacy?hl=en">Google privacy controls</a>). You can always contact us and we will help. You also have the right to lodge a complaint with a data protection authority.</p>
 
-<h2>8. Data retention and security</h2>
-<p>Data stored on your device stays there until you delete the Game. Data collected by Google for advertising is kept according to Google’s policies. All network traffic from the ads SDK is encrypted.</p>
+<h2>9. Data retention and security</h2>
+<p>Data stored on your device stays there until you delete the Game. Data collected by Google for advertising is kept according to Google’s policies. All network traffic from the ads SDK is encrypted. World-records data stays on the server until you delete it, or until the Game stops offering world records.</p>
 
-<h2>9. Changes to this policy</h2>
+<h2>10. Changes to this policy</h2>
 <p>If we change this policy, we will update this page and the effective date above. Significant changes will also be noted in the Game’s update notes.</p>
 
-<h2>10. Contact</h2>
+<h2>11. Contact</h2>
 <p>Questions or requests: <a href="mailto:numexpress.app@gmail.com">numexpress.app@gmail.com</a></p>
 </section>
 
 <section id="l-ru" lang="ru">
 <h1>Политика конфиденциальности</h1>
-<div class="muted">Дата вступления в силу: 2 ноября 2026 г. При расхождении с английской версией приоритет у английской.</div>
-<p>NumExpress («Игра») — игра на поиск чисел для iOS и Android. Её разработчик — Самир Новрузов («мы»). Здесь описано, какую информацию обрабатывает Игра и зачем. Всё просто: в Игре нет аккаунтов, входа и собственных серверов.</p>
+<div class="muted">Дата вступления в силу: 10 ноября 2026 г. При расхождении с английской версией приоритет у английской.</div>
+<p>NumExpress («Игра») — игра на поиск чисел для iOS и Android. Её разработчик — Самир Новрузов («мы»). Здесь описано, какую информацию обрабатывает Игра и зачем. Всё просто: регистрации нет, Игра никогда не спрашивает почту, телефон или пароль. На нашем сервере хранится только ваша запись в мировых рекордах (раздел 3).</p>
 
 <h2>1. Что хранится только на вашем устройстве</h2>
 <p>Чтобы помнить ваш прогресс, Игра сохраняет на телефоне следующее. Эти данные никуда не отправляются, и мы их не видим:</p>
@@ -120,6 +132,7 @@
   <tr><td>Число подсказок в Дзене и покупка «Без рекламы»</td><td>Функции игры</td></tr>
 </table></div>
 <p>При удалении Игры всё это удаляется.</p>
+<p>На iPhone звёзды на карте и рекорды также копируются в ваш собственный iCloud (хранилище «ключ–значение» Apple iCloud), чтобы прогресс сохранился на новом iPhone или после переустановки. Мы эту копию не видим; на неё распространяется <a href="https://www.apple.com/legal/privacy/">Политика конфиденциальности Apple</a>. На Android системная резервная копия в вашем аккаунте Google может хранить копию так же.</p>
 
 <h2>2. Реклама (Google AdMob)</h2>
 <p>Игра показывает видеорекламу только когда вы сами решили её посмотреть («Догнать поезд», подсказки в Дзене). Рекламу предоставляет Google AdMob. Чтобы показывать и измерять рекламу, SDK Google Mobile Ads может собирать:</p>
@@ -132,39 +145,50 @@
 <p>Эти данные собирает и обрабатывает Google согласно <a href="https://policies.google.com/privacy?hl=ru">Политике конфиденциальности Google</a>. См. также, <a href="https://policies.google.com/technologies/partner-sites?hl=ru">как Google использует данные из приложений партнёров</a>. Мы не получаем эти данные в виде, позволяющем установить вашу личность.</p>
 <p><strong>Ваш выбор.</strong> На iOS Игра спрашивает разрешение, прежде чем реклама сможет использовать рекламный идентификатор; изменить решение можно в Настройки → Конфиденциальность и безопасность → Отслеживание. На Android рекламный идентификатор можно сбросить или удалить в Настройки → Google → Реклама (или Настройки → Конфиденциальность → Реклама). В Европейской экономической зоне, Великобритании и Швейцарии Игра запрашивает согласие на персонализированную рекламу до её показа; изменить выбор можно в Игре. Если вы откажетесь, вы можете видеть неперсонализированную рекламу.</p>
 
-<h2>3. Покупки</h2>
+<h2 id="world-ru">3. Мировые рекорды (онлайн)</h2>
+<p>Чтобы показывать мировые рекорды, общие для игроков на iPhone и Android, Игра создаёт для вашего устройства анонимный аккаунт в Google Firebase (без почты, телефона и пароля) и отправляет на наш сервер:</p>
+<ul>
+  <li>случайный ID аккаунта и номер, чтобы ваша строка в таблицах была вашей (пока нет ника, она показывается как «Пассажир 4821»);</li>
+  <li>ник, если вы его выбрали, — он виден всем в таблицах;</li>
+  <li>лучшие результаты в Классике, Хаосе и Маршруте со временем поездки, её длительностью и количеством найденных чисел — чтобы сервер отклонял невозможные результаты;</li>
+  <li>жалобы, которые вы отправляете на ники других игроков.</li>
+</ul>
+<p>Эти данные хранит для нас Google Firebase (Cloud Firestore и Cloud Functions, регион europe-west1, Бельгия), при передаче они шифруются. Другие игроки видят ваш ник (или «Пассажир» с номером) и результаты, больше ничего. Результаты Дзена, настройки и всё из раздела 1 остаются на телефоне. Для работы сервиса Firebase также обрабатывает технические данные, например IP-адрес; см. <a href="https://policies.google.com/privacy?hl=ru">Политику конфиденциальности Google</a> и <a href="https://firebase.google.com/support/privacy">сведения о конфиденциальности Firebase</a>.</p>
+<p><strong>Удаление данных.</strong> В Игре откройте <b>ДИСПЕТЧЕРСКАЯ → МИРОВЫЕ РЕКОРДЫ → УДАЛИТЬ ОНЛАЙН-ДАННЫЕ</b>: ник, результаты и анонимный аккаунт сразу удаляются с сервера. Можно также написать нам (см. «Связь»), и мы их удалим. Ники, на которые пожаловались несколько игроков, удаляются автоматически.</p>
+
+<h2>4. Покупки</h2>
 <p>Необязательную покупку «Без рекламы» полностью проводит App Store (Apple) или Google Play. Мы не получаем ваше имя, данные карты или платёжные данные — только подтверждение покупки, чтобы Игра её включила. См. <a href="https://www.apple.com/legal/privacy/">Политику конфиденциальности Apple</a> и <a href="https://policies.google.com/privacy?hl=ru">Политику конфиденциальности Google</a>.</p>
 
-<h2>4. Уведомления</h2>
+<h2>5. Уведомления</h2>
 <p>Если вы включили ежедневное напоминание, Игра назначает его на самом телефоне. Сервер не участвует, данные никуда не отправляются. Выключить напоминание можно в Игре (Диспетчерская) или в настройках телефона.</p>
 
-<h2>5. Чего мы не делаем</h2>
+<h2>6. Чего мы не делаем</h2>
 <ul>
   <li>Не запрашиваем имя, почту, телефон, контакты, фото, камеру, микрофон и точное местоположение.</li>
   <li>Не ведём собственную аналитику и не продаём персональные данные.</li>
-  <li>Не создаём аккаунты и профили пользователей.</li>
+  <li>Не требуем регистрации; анонимный аккаунт мировых рекордов (раздел 3) не содержит личных данных.</li>
 </ul>
 
-<h2>6. Дети</h2>
+<h2>7. Дети</h2>
 <p>Игра подходит для широкой аудитории, но не предназначена специально для детей младше 13 лет, и мы сознательно не собираем их персональные данные. Если вы считаете, что ребёнок передал персональные данные через Игру, напишите нам, и мы поможем их удалить.</p>
 
-<h2>7. Ваши права</h2>
+<h2>8. Ваши права</h2>
 <p>В зависимости от места проживания (например, по GDPR в Европе или CCPA в Калифорнии) у вас может быть право на доступ к данным, их исправление и удаление, а также право возразить против обработки. Поскольку сами мы персональные данные не храним, запросы о рекламных данных лучше направлять в Google (<a href="https://myaccount.google.com/data-and-privacy?hl=ru">настройки конфиденциальности Google</a>). Вы всегда можете написать нам, и мы поможем.</p>
 
-<h2>8. Хранение и защита</h2>
-<p>Данные на устройстве хранятся, пока вы не удалите Игру. Данные, собранные Google для рекламы, хранятся по правилам Google. Сетевой трафик рекламного SDK шифруется.</p>
+<h2>9. Хранение и защита</h2>
+<p>Данные на устройстве хранятся, пока вы не удалите Игру. Данные, собранные Google для рекламы, хранятся по правилам Google. Сетевой трафик рекламного SDK шифруется. Данные мировых рекордов хранятся на сервере, пока вы их не удалите или пока Игра не перестанет предлагать мировые рекорды.</p>
 
-<h2>9. Изменения</h2>
+<h2>10. Изменения</h2>
 <p>Если политика изменится, мы обновим эту страницу и дату вступления в силу. О значимых изменениях также будет сказано в описании обновления Игры.</p>
 
-<h2>10. Связь</h2>
+<h2>11. Связь</h2>
 <p>Вопросы и запросы: <a href="mailto:numexpress.app@gmail.com">numexpress.app@gmail.com</a></p>
 </section>
 
 <section id="l-tr" lang="tr">
 <h1>Gizlilik Politikası</h1>
-<div class="muted">Yürürlük tarihi: 2 Kasım 2026. İngilizce sürümle farklılık olması durumunda İngilizce sürüm geçerlidir.</div>
-<p>NumExpress (“Oyun”), Samir Novruzov (“biz”) tarafından iOS ve Android için geliştirilmiş bir sayı bulma oyunudur. Bu politika, Oyunun hangi bilgileri neden işlediğini açıklar. Kısacası: Oyunda hesap, oturum açma veya kendimize ait sunucu yoktur.</p>
+<div class="muted">Yürürlük tarihi: 10 Kasım 2026. İngilizce sürümle farklılık olması durumunda İngilizce sürüm geçerlidir.</div>
+<p>NumExpress (“Oyun”), Samir Novruzov (“biz”) tarafından iOS ve Android için yapılmış bir sayı bulma oyunudur. Bu politika, Oyunun hangi bilgileri neden işlediğini açıklar. Her şey basit: kayıt yok ve Oyun asla e-posta, telefon numarası veya şifre istemez. Sunucumuzda yalnızca dünya rekorlarındaki kaydınız tutulur (bölüm 3).</p>
 
 <h2>1. Yalnızca cihazınızda saklanan bilgiler</h2>
 <p>Oyun, ilerlemenizi hatırlamak için aşağıdakileri telefonunuzda saklar. Bu veriler cihazınızdan hiç çıkmaz ve biz göremeyiz:</p>
@@ -176,6 +200,7 @@
   <tr><td>Zen ipucu sayısı ve “Reklamsız” satın alınıp alınmadığı</td><td>Oyun özellikleri</td></tr>
 </table></div>
 <p>Oyunu silmek bunların hepsini siler.</p>
+<p>iPhone’da harita yıldızlarınız ve rekorlarınız kendi iCloud hesabınıza da (Apple iCloud anahtar-değer depolama) kopyalanır; böylece yeni bir iPhone’da veya yeniden yüklemede ilerlemeniz korunur. Bu kopyayı biz göremeyiz; <a href="https://www.apple.com/legal/privacy/">Apple Gizlilik Politikası</a> geçerlidir. Android’de Google hesabınıza yapılan sistem yedeği de benzer şekilde bir kopya tutabilir.</p>
 
 <h2>2. Reklamlar (Google AdMob)</h2>
 <p>Oyun, ödüllü video reklamları yalnızca siz izlemeyi seçtiğinizde gösterir (“Trene yetiş”, Zen ipuçları). Reklamlar Google AdMob tarafından sağlanır. Reklamları göstermek ve ölçmek için Google Mobile Ads SDK şunları toplayabilir:</p>
@@ -188,39 +213,50 @@
 <p>Bu veriler Google tarafından <a href="https://policies.google.com/privacy?hl=tr">Google Gizlilik Politikası</a> kapsamında toplanır ve işlenir. Ayrıca bkz. <a href="https://policies.google.com/technologies/partner-sites?hl=tr">Google’ın, hizmetlerini kullanan uygulamalardan gelen bilgileri nasıl kullandığı</a>. Bu verileri sizi tanımlayan bir biçimde almayız.</p>
 <p><strong>Seçimleriniz.</strong> iOS’ta Oyun, reklamların reklam kimliğinizi kullanabilmesi için önce izninizi ister; bunu istediğiniz zaman Ayarlar → Gizlilik ve Güvenlik → İzlenme bölümünden değiştirebilirsiniz. Android’de Reklam Kimliğinizi Ayarlar → Google → Reklamlar (veya Ayarlar → Gizlilik → Reklamlar) bölümünden sıfırlayabilir ya da silebilirsiniz. Avrupa Ekonomik Alanı, Birleşik Krallık ve İsviçre’de Oyun, reklam göstermeden önce kişiselleştirilmiş reklamlar için onayınızı ister; seçiminizi daha sonra Oyundan değiştirebilirsiniz. Reddederseniz kişiselleştirilmemiş reklamlar görmeye devam edebilirsiniz.</p>
 
-<h2>3. Satın alımlar</h2>
+<h2 id="world-tr">3. Dünya rekorları (çevrimiçi)</h2>
+<p>iPhone ve Android oyuncularının ortak dünya rekorlarını göstermek için Oyun, cihazınız için Google Firebase’de anonim bir hesap oluşturur (e-posta, telefon veya şifre olmadan) ve sunucumuza şunları gönderir:</p>
+<ul>
+  <li>tablolardaki satırınızın size ait olması için rastgele bir hesap kimliği ve numara (takma ad seçene kadar “Yolcu 4821” olarak görünür);</li>
+  <li>seçtiyseniz takma adınız — tablolarda herkese açık görünür;</li>
+  <li>sunucunun imkânsız skorları reddedebilmesi için Klasik, Kaos ve Rota’daki en iyi skorlarınız, yolculuğun zamanı, süresi ve bulunan sayı adedi;</li>
+  <li>diğer oyuncuların takma adları hakkında gönderdiğiniz şikâyetler.</li>
+</ul>
+<p>Bu verileri bizim adımıza Google Firebase (Cloud Firestore ve Cloud Functions, europe-west1 bölgesi, Belçika) saklar; aktarım sırasında şifrelenir. Diğer oyuncular yalnızca takma adınızı (veya “Yolcu” numarasını) ve skorlarınızı görür. Zen sonuçları, ayarlar ve bölüm 1’deki her şey telefonunuzda kalır. Hizmeti çalıştırmak için Firebase IP adresi gibi teknik verileri de işler; bkz. <a href="https://policies.google.com/privacy?hl=tr">Google Gizlilik Politikası</a> ve <a href="https://firebase.google.com/support/privacy">Firebase gizlilik bilgileri</a>.</p>
+<p><strong>Verilerinizi silme.</strong> Oyunda <b>KONTROL ODASI → DÜNYA REKORLARI → ÇEVRİMİÇİ VERİLERİ SİL</b>: takma adınız, skorlarınız ve anonim hesabınız sunucudan hemen silinir. Bize yazarak da (bkz. İletişim) silmemizi isteyebilirsiniz. Birkaç oyuncunun şikâyet ettiği takma adlar otomatik olarak kaldırılır.</p>
+
+<h2>4. Satın alımlar</h2>
 <p>İsteğe bağlı “Reklamsız” satın alımı tamamen App Store (Apple) veya Google Play tarafından yürütülür. Adınızı, kartınızı veya fatura bilgilerinizi almayız — yalnızca Oyunun özelliği açabilmesi için satın alımın yapıldığına dair bir onay alırız. Bkz. <a href="https://www.apple.com/legal/privacy/">Apple Gizlilik Politikası</a> ve <a href="https://policies.google.com/privacy?hl=tr">Google Gizlilik Politikası</a>.</p>
 
-<h2>4. Bildirimler</h2>
+<h2>5. Bildirimler</h2>
 <p>Günlük hatırlatıcıyı açarsanız Oyun onu telefonunuzda planlar. Hiçbir sunucu kullanılmaz ve bildirim verisi hiçbir yere gönderilmez. Hatırlatıcıyı Oyundan (Kontrol odası) veya telefonunuzun ayarlarından kapatabilirsiniz.</p>
 
-<h2>5. Yapmadıklarımız</h2>
+<h2>6. Yapmadıklarımız</h2>
 <ul>
   <li>Adınızı, e-postanızı, telefon numaranızı, kişilerinizi, fotoğraflarınızı, kameranızı, mikrofonunuzu veya kesin konumunuzu istemeyiz.</li>
   <li>Kendi analizimizi yapmayız ve kişisel verileri satmayız.</li>
-  <li>Hesap veya kullanıcı profili oluşturmayız.</li>
+  <li>Kayıt olmanızı istemeyiz; dünya rekorları için anonim hesap (bölüm 3) kişisel bilgi içermez.</li>
 </ul>
 
-<h2>6. Çocuklar</h2>
+<h2>7. Çocuklar</h2>
 <p>Oyun genel kitleye uygundur ancak 13 yaşından küçük çocuklara yönelik değildir ve onlardan bilerek kişisel bilgi toplamayız. Bir çocuğun Oyun aracılığıyla kişisel bilgi verdiğini düşünüyorsanız bize yazın, silinmesine yardımcı olalım.</p>
 
-<h2>7. Haklarınız</h2>
+<h2>8. Haklarınız</h2>
 <p>Yaşadığınız yere bağlı olarak (örneğin Avrupa’da GDPR, Türkiye’de KVKK veya Kaliforniya’da CCPA kapsamında) kişisel verilerinize erişme, bunları düzeltme veya silme ve işlenmesine itiraz etme hakkınız olabilir. Kişisel verileri kendimiz saklamadığımız için reklam verileriyle ilgili talepleri Google’a iletmeniz en iyisidir (<a href="https://myaccount.google.com/data-and-privacy?hl=tr">Google gizlilik ayarları</a>). Bize her zaman yazabilirsiniz; yardımcı oluruz.</p>
 
-<h2>8. Saklama ve güvenlik</h2>
-<p>Cihazınızdaki veriler, Oyunu silene kadar orada kalır. Google’ın reklam için topladığı veriler Google’ın politikalarına göre saklanır. Reklam SDK’sının tüm ağ trafiği şifrelenir.</p>
+<h2>9. Saklama ve güvenlik</h2>
+<p>Cihazınızdaki veriler, Oyunu silene kadar orada kalır. Google’ın reklam için topladığı veriler Google’ın politikalarına göre saklanır. Reklam SDK’sının tüm ağ trafiği şifrelenir. Dünya rekorları verileri, siz silene veya Oyun dünya rekorlarını sunmayı bırakana kadar sunucuda kalır.</p>
 
-<h2>9. Bu politikadaki değişiklikler</h2>
+<h2>10. Bu politikadaki değişiklikler</h2>
 <p>Bu politikayı değiştirirsek bu sayfayı ve yukarıdaki yürürlük tarihini güncelleriz. Önemli değişiklikler Oyunun güncelleme notlarında da belirtilir.</p>
 
-<h2>10. İletişim</h2>
+<h2>11. İletişim</h2>
 <p>Sorular veya talepler: <a href="mailto:numexpress.app@gmail.com">numexpress.app@gmail.com</a></p>
 </section>
 
 <section id="l-fr" lang="fr">
 <h1>Politique de confidentialité</h1>
-<div class="muted">Date d’entrée en vigueur : 2 novembre 2026. En cas de divergence avec la version anglaise, la version anglaise prévaut.</div>
-<p>NumExpress (le « Jeu ») est un jeu de recherche de nombres pour iOS et Android créé par Samir Novruzov (« nous »). Cette politique explique quelles informations le Jeu traite et pourquoi. C’est simple : le Jeu n’a ni compte, ni connexion, ni serveur à nous.</p>
+<div class="muted">Date d’entrée en vigueur : 10 novembre 2026. En cas de divergence avec la version anglaise, la version anglaise prévaut.</div>
+<p>NumExpress (le « Jeu ») est un jeu de recherche de nombres pour iOS et Android créé par Samir Novruzov (« nous »). Cette politique explique quelles informations le Jeu traite et pourquoi. C’est simple : aucune inscription, et le Jeu ne demande jamais d’e-mail, de numéro de téléphone ni de mot de passe. La seule chose conservée sur notre serveur est votre ligne dans les records mondiaux (section 3).</p>
 
 <h2>1. Informations stockées uniquement sur votre appareil</h2>
 <p>Le Jeu enregistre les éléments suivants sur votre téléphone pour se souvenir de votre progression. Ils ne quittent jamais votre appareil et nous ne pouvons pas les voir :</p>
@@ -232,6 +268,7 @@
   <tr><td>Nombre d’indices Zen et achat éventuel de « Sans pub »</td><td>Fonctions du jeu</td></tr>
 </table></div>
 <p>Supprimer le Jeu supprime toutes ces données.</p>
+<p>Sur iPhone, vos étoiles de la carte et vos records sont aussi copiés dans votre propre compte iCloud (stockage clé-valeur Apple iCloud), pour qu’un nouvel iPhone ou une réinstallation conserve votre progression. Nous ne voyons pas cette copie ; elle relève de la <a href="https://www.apple.com/legal/privacy/">Politique de confidentialité d’Apple</a>. Sur Android, la sauvegarde système de votre compte Google peut en garder une copie de la même façon.</p>
 
 <h2>2. Publicité (Google AdMob)</h2>
 <p>Le Jeu affiche des vidéos publicitaires avec récompense uniquement lorsque vous choisissez d’en regarder une (« Rattraper le train », indices Zen). Les publicités sont fournies par Google AdMob. Pour afficher et mesurer les publicités, le SDK Google Mobile Ads peut collecter :</p>
@@ -244,39 +281,50 @@
 <p>Ces données sont collectées et traitées par Google conformément aux <a href="https://policies.google.com/privacy?hl=fr">Règles de confidentialité de Google</a>. Voir aussi <a href="https://policies.google.com/technologies/partner-sites?hl=fr">comment Google utilise les informations des applications qui utilisent ses services</a>. Nous ne recevons pas ces données sous une forme qui vous identifie.</p>
 <p><strong>Vos choix.</strong> Sur iOS, le Jeu vous demande l’autorisation avant que les publicités puissent utiliser votre identifiant publicitaire ; vous pouvez la modifier à tout moment dans Réglages → Confidentialité et sécurité → Suivi. Sur Android, vous pouvez réinitialiser ou supprimer votre identifiant publicitaire dans Paramètres → Google → Annonces (ou Paramètres → Confidentialité → Annonces). Dans l’Espace économique européen, au Royaume-Uni et en Suisse, le Jeu demande votre consentement aux publicités personnalisées avant d’en afficher ; vous pouvez modifier votre choix plus tard depuis le Jeu. Si vous refusez, vous pouvez tout de même voir des publicités non personnalisées.</p>
 
-<h2>3. Achats</h2>
+<h2 id="world-fr">3. Records mondiaux (en ligne)</h2>
+<p>Pour afficher des records mondiaux communs aux joueurs iPhone et Android, le Jeu crée pour votre appareil un compte anonyme chez Google Firebase (sans e-mail, téléphone ni mot de passe) et envoie à notre serveur :</p>
+<ul>
+  <li>un identifiant de compte aléatoire et un numéro, pour que votre ligne dans les classements soit bien la vôtre (affichée « Voyageur 4821 » tant que vous n’avez pas choisi de pseudo) ;</li>
+  <li>le pseudo que vous choisissez, le cas échéant — il est visible publiquement dans les classements ;</li>
+  <li>vos meilleurs scores en Classique, Chaos et Itinéraire, avec l’heure de la partie, sa durée et le nombre de nombres trouvés, pour que le serveur rejette les scores impossibles ;</li>
+  <li>les signalements que vous envoyez sur les pseudos d’autres joueurs.</li>
+</ul>
+<p>Ces données sont conservées pour nous par Google Firebase (Cloud Firestore et Cloud Functions, région europe-west1, Belgique) et chiffrées pendant le transfert. Les autres joueurs voient votre pseudo (ou « Voyageur » et son numéro) et vos scores, rien d’autre. Les résultats Zen, les réglages et tout ce qui figure en section 1 restent sur votre téléphone. Pour fonctionner, Firebase traite aussi des données techniques comme votre adresse IP ; voir la <a href="https://policies.google.com/privacy?hl=fr">Politique de confidentialité de Google</a> et les <a href="https://firebase.google.com/support/privacy">informations de confidentialité de Firebase</a>.</p>
+<p><strong>Supprimer vos données.</strong> Dans le Jeu, ouvrez <b>AIGUILLAGE → RECORDS MONDIAUX → SUPPRIMER MES DONNÉES</b> : votre pseudo, vos scores et votre compte anonyme sont aussitôt supprimés du serveur. Vous pouvez aussi nous écrire (voir Contact) et nous les supprimerons. Les pseudos signalés par plusieurs joueurs sont retirés automatiquement.</p>
+
+<h2>4. Achats</h2>
 <p>L’achat facultatif « Sans pub » est entièrement géré par l’App Store (Apple) ou Google Play. Nous ne recevons ni votre nom, ni votre carte bancaire, ni vos données de facturation — seulement une confirmation de l’achat, pour que le Jeu puisse l’activer. Voir la <a href="https://www.apple.com/legal/privacy/">Politique de confidentialité d’Apple</a> et les <a href="https://policies.google.com/privacy?hl=fr">Règles de confidentialité de Google</a>.</p>
 
-<h2>4. Notifications</h2>
+<h2>5. Notifications</h2>
 <p>Si vous activez le rappel quotidien, le Jeu le programme sur votre téléphone. Aucun serveur n’intervient et aucune donnée de notification n’est envoyée. Vous pouvez le désactiver dans le Jeu (Aiguillage) ou dans les réglages de votre téléphone.</p>
 
-<h2>5. Ce que nous ne faisons pas</h2>
+<h2>6. Ce que nous ne faisons pas</h2>
 <ul>
   <li>Nous ne demandons ni votre nom, ni votre e-mail, ni votre numéro de téléphone, ni vos contacts, photos, caméra, micro ou localisation précise.</li>
   <li>Nous n’utilisons pas nos propres outils d’analyse et ne vendons pas de données personnelles.</li>
-  <li>Nous ne créons ni comptes ni profils d’utilisateurs.</li>
+  <li>Nous ne vous demandons pas de vous inscrire ; le compte anonyme des records mondiaux (section 3) ne contient aucune donnée personnelle.</li>
 </ul>
 
-<h2>6. Enfants</h2>
+<h2>7. Enfants</h2>
 <p>Le Jeu convient à tous les publics mais ne s’adresse pas aux enfants de moins de 13 ans, et nous ne collectons pas sciemment leurs informations personnelles. Si vous pensez qu’un enfant a fourni des informations personnelles via le Jeu, contactez-nous et nous vous aiderons à les supprimer.</p>
 
-<h2>7. Vos droits</h2>
+<h2>8. Vos droits</h2>
 <p>Selon votre lieu de résidence (par exemple en vertu du RGPD en Europe ou du CCPA en Californie), vous pouvez avoir le droit d’accéder à vos données personnelles, de les rectifier ou de les supprimer, et de vous opposer à leur traitement. Comme nous ne stockons pas nous-mêmes de données personnelles, il est préférable d’adresser les demandes concernant les données publicitaires à Google (<a href="https://myaccount.google.com/data-and-privacy?hl=fr">paramètres de confidentialité Google</a>). Vous pouvez toujours nous écrire, nous vous aiderons. Vous avez aussi le droit d’introduire une réclamation auprès d’une autorité de protection des données (en France, la CNIL).</p>
 
-<h2>8. Conservation et sécurité</h2>
-<p>Les données stockées sur votre appareil y restent jusqu’à ce que vous supprimiez le Jeu. Les données collectées par Google pour la publicité sont conservées selon les règles de Google. Tout le trafic réseau du SDK publicitaire est chiffré.</p>
+<h2>9. Conservation et sécurité</h2>
+<p>Les données stockées sur votre appareil y restent jusqu’à ce que vous supprimiez le Jeu. Les données collectées par Google pour la publicité sont conservées selon les règles de Google. Tout le trafic réseau du SDK publicitaire est chiffré. Les données des records mondiaux restent sur le serveur jusqu’à ce que vous les supprimiez ou que le Jeu cesse de proposer les records mondiaux.</p>
 
-<h2>9. Modifications de cette politique</h2>
+<h2>10. Modifications de cette politique</h2>
 <p>Si nous modifions cette politique, nous mettrons à jour cette page et la date d’entrée en vigueur ci-dessus. Les changements importants seront aussi mentionnés dans les notes de mise à jour du Jeu.</p>
 
-<h2>10. Contact</h2>
+<h2>11. Contact</h2>
 <p>Questions ou demandes : <a href="mailto:numexpress.app@gmail.com">numexpress.app@gmail.com</a></p>
 </section>
 
 <section id="l-es" lang="es">
 <h1>Política de privacidad</h1>
-<div class="muted">Fecha de entrada en vigor: 2 de noviembre de 2026. En caso de discrepancia con la versión en inglés, prevalece la versión en inglés.</div>
-<p>NumExpress (el «Juego») es un juego de buscar números para iOS y Android creado por Samir Novruzov («nosotros»). Esta política explica qué información trata el Juego y por qué. Es sencillo: el Juego no tiene cuentas, ni inicio de sesión, ni servidores propios.</p>
+<div class="muted">Fecha de entrada en vigor: 10 de noviembre de 2026. En caso de discrepancia con la versión en inglés, prevalece la versión en inglés.</div>
+<p>NumExpress (el «Juego») es un juego de buscar números para iOS y Android creado por Samir Novruzov («nosotros»). Esta política explica qué información trata el Juego y por qué. Es sencillo: no hay registro y el Juego nunca pide correo, teléfono ni contraseña. Lo único que guardamos en nuestro servidor es tu línea en los récords mundiales (sección 3).</p>
 
 <h2>1. Información guardada solo en tu dispositivo</h2>
 <p>El Juego guarda lo siguiente en tu teléfono para recordar tu progreso. Nunca sale de tu dispositivo y nosotros no podemos verlo:</p>
@@ -288,6 +336,7 @@
   <tr><td>Número de pistas Zen y si se compró «Sin anuncios»</td><td>Funciones del juego</td></tr>
 </table></div>
 <p>Al eliminar el Juego se elimina todo esto.</p>
+<p>En iPhone, tus estrellas del mapa y tus récords también se copian en tu propia cuenta de iCloud (almacenamiento clave-valor de Apple iCloud), para que un iPhone nuevo o una reinstalación conserve tu progreso. No podemos ver esa copia; se rige por la <a href="https://www.apple.com/legal/privacy/">Política de privacidad de Apple</a>. En Android, la copia de seguridad del sistema en tu cuenta de Google puede guardar una copia del mismo modo.</p>
 
 <h2>2. Publicidad (Google AdMob)</h2>
 <p>El Juego muestra anuncios de vídeo con recompensa solo cuando eliges ver uno («Alcanzar el tren», pistas Zen). Los anuncios los ofrece Google AdMob. Para mostrar y medir anuncios, el SDK de Google Mobile Ads puede recopilar:</p>
@@ -300,39 +349,50 @@
 <p>Google recopila y trata estos datos según la <a href="https://policies.google.com/privacy?hl=es">Política de privacidad de Google</a>. Consulta también <a href="https://policies.google.com/technologies/partner-sites?hl=es">cómo usa Google la información de las apps que utilizan sus servicios</a>. No recibimos estos datos de forma que te identifique.</p>
 <p><strong>Tus opciones.</strong> En iOS el Juego te pide permiso antes de que los anuncios puedan usar tu identificador publicitario; puedes cambiarlo en cualquier momento en Ajustes → Privacidad y seguridad → Rastreo. En Android puedes restablecer o eliminar tu ID de publicidad en Ajustes → Google → Anuncios (o Ajustes → Privacidad → Anuncios). En el Espacio Económico Europeo, el Reino Unido y Suiza el Juego pide tu consentimiento para anuncios personalizados antes de mostrar ninguno; puedes cambiar tu elección más tarde desde el Juego. Si lo rechazas, aún puedes ver anuncios no personalizados.</p>
 
-<h2>3. Compras</h2>
+<h2 id="world-es">3. Récords mundiales (en línea)</h2>
+<p>Para mostrar récords mundiales compartidos por jugadores de iPhone y Android, el Juego crea para tu dispositivo una cuenta anónima en Google Firebase (sin correo, teléfono ni contraseña) y envía a nuestro servidor:</p>
+<ul>
+  <li>un ID de cuenta aleatorio y un número, para que tu línea en las tablas sea tuya (se muestra como «Viajero 4821» hasta que elijas un apodo);</li>
+  <li>el apodo que elijas, si lo eliges: se muestra públicamente en las tablas;</li>
+  <li>tus mejores puntuaciones en Clásico, Caos y Ruta, con la hora de la partida, su duración y cuántos números encontraste, para que el servidor rechace puntuaciones imposibles;</li>
+  <li>las denuncias que envíes sobre apodos de otros jugadores.</li>
+</ul>
+<p>Estos datos los guarda para nosotros Google Firebase (Cloud Firestore y Cloud Functions, región europe-west1, Bélgica) y se cifran en tránsito. Los demás jugadores ven tu apodo (o «Viajero» con número) y tus puntuaciones, nada más. Los resultados de Zen, los ajustes y todo lo de la sección 1 se quedan en tu teléfono. Para funcionar, Firebase también trata datos técnicos como tu dirección IP; consulta la <a href="https://policies.google.com/privacy?hl=es">Política de privacidad de Google</a> y la <a href="https://firebase.google.com/support/privacy">información de privacidad de Firebase</a>.</p>
+<p><strong>Borrar tus datos.</strong> En el Juego abre <b>CONTROL → RÉCORDS MUNDIALES → BORRAR MIS DATOS</b>: tu apodo, tus puntuaciones y tu cuenta anónima se eliminan del servidor al instante. También puedes escribirnos (ver Contacto) y los borraremos. Los apodos denunciados por varios jugadores se eliminan automáticamente.</p>
+
+<h2>4. Compras</h2>
 <p>La compra opcional «Sin anuncios» la gestiona por completo App Store (Apple) o Google Play. No recibimos tu nombre, tarjeta ni datos de facturación, solo una confirmación de la compra para que el Juego la active. Consulta la <a href="https://www.apple.com/legal/privacy/">Política de privacidad de Apple</a> y la <a href="https://policies.google.com/privacy?hl=es">Política de privacidad de Google</a>.</p>
 
-<h2>4. Notificaciones</h2>
+<h2>5. Notificaciones</h2>
 <p>Si activas el recordatorio diario, el Juego lo programa en tu teléfono. No interviene ningún servidor y no se envía ningún dato de notificaciones. Puedes desactivarlo en el Juego (Control) o en los ajustes del teléfono.</p>
 
-<h2>5. Lo que no hacemos</h2>
+<h2>6. Lo que no hacemos</h2>
 <ul>
   <li>No pedimos tu nombre, correo, teléfono, contactos, fotos, cámara, micrófono ni ubicación precisa.</li>
   <li>No usamos analítica propia ni vendemos datos personales.</li>
-  <li>No creamos cuentas ni perfiles de usuario.</li>
+  <li>No te pedimos registrarte; la cuenta anónima de récords mundiales (sección 3) no contiene datos personales.</li>
 </ul>
 
-<h2>6. Menores</h2>
+<h2>7. Menores</h2>
 <p>El Juego es apto para todos los públicos, pero no está dirigido a menores de 13 años y no recopilamos a sabiendas su información personal. Si crees que un menor ha proporcionado información personal a través del Juego, escríbenos y te ayudaremos a eliminarla.</p>
 
-<h2>7. Tus derechos</h2>
+<h2>8. Tus derechos</h2>
 <p>Según dónde vivas (por ejemplo, en virtud del RGPD en Europa o la CCPA en California), puedes tener derecho a acceder a tus datos personales, rectificarlos o eliminarlos, y a oponerte a su tratamiento. Como nosotros no guardamos datos personales, es mejor dirigir las solicitudes sobre datos publicitarios a Google (<a href="https://myaccount.google.com/data-and-privacy?hl=es">controles de privacidad de Google</a>). Siempre puedes escribirnos y te ayudaremos. También tienes derecho a presentar una reclamación ante una autoridad de protección de datos.</p>
 
-<h2>8. Conservación y seguridad</h2>
-<p>Los datos guardados en tu dispositivo permanecen allí hasta que elimines el Juego. Los datos que Google recopila para publicidad se conservan según las políticas de Google. Todo el tráfico de red del SDK de anuncios va cifrado.</p>
+<h2>9. Conservación y seguridad</h2>
+<p>Los datos guardados en tu dispositivo permanecen allí hasta que elimines el Juego. Los datos que Google recopila para publicidad se conservan según las políticas de Google. Todo el tráfico de red del SDK de anuncios va cifrado. Los datos de los récords mundiales permanecen en el servidor hasta que los borres o hasta que el Juego deje de ofrecer récords mundiales.</p>
 
-<h2>9. Cambios en esta política</h2>
+<h2>10. Cambios en esta política</h2>
 <p>Si cambiamos esta política, actualizaremos esta página y la fecha de entrada en vigor indicada arriba. Los cambios importantes también se indicarán en las notas de actualización del Juego.</p>
 
-<h2>10. Contacto</h2>
+<h2>11. Contacto</h2>
 <p>Preguntas o solicitudes: <a href="mailto:numexpress.app@gmail.com">numexpress.app@gmail.com</a></p>
 </section>
 
 <section id="l-zh" lang="zh-CN">
 <h1>隐私政策</h1>
-<div class="muted">生效日期：2026 年 11 月 2 日。 如与英文版本不一致，以英文版本为准。</div>
-<p>NumExpress（“本游戏”）是由 Samir Novruzov（“我们”）开发的 iOS 和 Android 找数字游戏。本政策说明本游戏处理哪些信息以及原因。简单来说：本游戏没有账户、无需登录，也没有我们自己的服务器。</p>
+<div class="muted">生效日期：2026 年 11 月 10 日。 如与英文版本不一致，以英文版本为准。</div>
+<p>NumExpress（“本游戏”）是由 Samir Novruzov（“我们”）为 iOS 和 Android 制作的找数字游戏。本政策说明本游戏处理哪些信息以及原因。很简单：无需注册，本游戏从不索要你的邮箱、电话号码或密码。我们的服务器上只保存你在全球排行榜中的记录（第 3 节）。</p>
 
 <h2>1. 仅存储在您设备上的信息</h2>
 <p>为记住您的进度，本游戏会在您的手机上保存以下内容。这些数据不会离开您的设备，我们也无法查看：</p>
@@ -344,6 +404,7 @@
   <tr><td>禅模式提示次数，以及是否购买了“去除广告”</td><td>游戏功能</td></tr>
 </table></div>
 <p>删除本游戏即会删除以上全部数据。</p>
+<p>在 iPhone 上，你的地图星星和纪录还会复制到你自己的 iCloud 账户（Apple iCloud 键值存储），这样换新 iPhone 或重新安装后进度仍在。我们看不到这份副本，它受 <a href="https://www.apple.com/legal/privacy/">Apple 隐私政策</a>约束。在 Android 上，系统对你 Google 账户的备份也可能以同样方式保存一份副本。</p>
 
 <h2>2. 广告（Google AdMob）</h2>
 <p>本游戏仅在您主动选择观看时才播放激励视频广告（“追上列车”、禅模式提示）。广告由 Google AdMob 提供。为展示和衡量广告，Google 移动广告 SDK 可能会收集：</p>
@@ -356,39 +417,50 @@
 <p>这些数据由 Google 根据 <a href="https://policies.google.com/privacy?hl=zh-CN">Google 隐私权政策</a>收集和处理。另请参阅 <a href="https://policies.google.com/technologies/partner-sites?hl=zh-CN">Google 如何使用来自使用其服务的应用的信息</a>。我们不会以可识别您身份的形式收到这些数据。</p>
 <p><strong>您的选择。</strong>在 iOS 上，本游戏会先征得您的许可，广告才能使用您的广告标识符；您可随时在“设置 → 隐私与安全性 → 跟踪”中更改。在 Android 上，您可在“设置 → Google → 广告”（或“设置 → 隐私 → 广告”）中重置或删除广告 ID。在欧洲经济区、英国和瑞士，本游戏会在展示任何广告前征求您对个性化广告的同意；您之后可在游戏中更改选择。如果拒绝，您仍可能看到非个性化广告。</p>
 
-<h2>3. 购买</h2>
+<h2 id="world-zh">3. 全球排行榜（在线）</h2>
+<p>为了显示 iPhone 和 Android 玩家共享的全球排行榜，本游戏会在 Google Firebase 为你的设备创建一个匿名账户（无需邮箱、电话或密码），并向我们的服务器发送：</p>
+<ul>
+  <li>随机的账户 ID 和编号，确保排行榜上的那一行属于你（在你设置昵称之前显示为“乘客 4821”）；</li>
+  <li>你设置的昵称（如有）——它会在排行榜上公开显示；</li>
+  <li>你在经典、混乱和路线模式中的最佳成绩，以及该局的时间、时长和找到的数字个数，以便服务器拒绝不可能的成绩；</li>
+  <li>你对其他玩家昵称提交的举报。</li>
+</ul>
+<p>这些数据由 Google Firebase（Cloud Firestore 和 Cloud Functions，europe-west1 区域，比利时）代我们保存，传输过程中加密。其他玩家只能看到你的昵称（或“乘客”编号）和成绩。禅模式成绩、设置以及第 1 节中的所有内容都只保存在你的手机上。为提供服务，Firebase 还会处理 IP 地址等技术数据；请参阅 <a href="https://policies.google.com/privacy?hl=zh-CN">Google 隐私权政策</a>和 <a href="https://firebase.google.com/support/privacy">Firebase 隐私信息</a>。</p>
+<p><strong>删除你的数据。</strong>在游戏中打开 <b>调度室 → 全球排行榜 → 删除在线数据</b>：你的昵称、成绩和匿名账户会立即从服务器删除。你也可以写信给我们（见“联系我们”），我们会为你删除。被多名玩家举报的昵称会被自动移除。</p>
+
+<h2>4. 购买</h2>
 <p>可选购买“去除广告”完全由 App Store（Apple）或 Google Play 处理。我们不会收到您的姓名、银行卡或账单信息，只会收到购买成功的确认，以便游戏解锁该功能。请参阅 <a href="https://www.apple.com/legal/privacy/">Apple 隐私政策</a>和 <a href="https://policies.google.com/privacy?hl=zh-CN">Google 隐私权政策</a>。</p>
 
-<h2>4. 通知</h2>
+<h2>5. 通知</h2>
 <p>如果您开启每日提醒，本游戏会在您的手机上设定提醒。不涉及任何服务器，也不会发送任何通知数据。您可在游戏中（调度室）或手机设置中关闭提醒。</p>
 
-<h2>5. 我们不做的事</h2>
+<h2>6. 我们不做的事</h2>
 <ul>
   <li>我们不会索取您的姓名、电子邮件、电话号码、通讯录、照片、相机、麦克风或精确位置。</li>
   <li>我们不运行自己的分析工具，也不出售个人数据。</li>
-  <li>我们不创建账户或用户档案。</li>
+  <li>我们不要求你注册；全球排行榜的匿名账户（第 3 节）不包含任何个人信息。</li>
 </ul>
 
-<h2>6. 儿童</h2>
+<h2>7. 儿童</h2>
 <p>本游戏适合所有人群，但并非面向 13 岁以下儿童，我们也不会在知情的情况下收集他们的个人信息。如果您认为有儿童通过本游戏提供了个人信息，请联系我们，我们会协助删除。</p>
 
-<h2>7. 您的权利</h2>
+<h2>8. 您的权利</h2>
 <p>根据您所在的地区（例如欧洲的 GDPR、中国的《个人信息保护法》或加利福尼亚的 CCPA），您可能有权访问、更正或删除个人数据，并反对其处理。由于我们自己不存储个人数据，有关广告数据的请求最好向 Google 提出（<a href="https://myaccount.google.com/data-and-privacy?hl=zh-CN">Google 隐私设置</a>）。您也可以随时联系我们，我们会提供帮助。</p>
 
-<h2>8. 数据保留与安全</h2>
-<p>存储在您设备上的数据会一直保留，直到您删除本游戏。Google 为广告收集的数据按照 Google 的政策保存。广告 SDK 的所有网络流量均经过加密。</p>
+<h2>9. 数据保留与安全</h2>
+<p>存储在您设备上的数据会一直保留，直到您删除本游戏。Google 为广告收集的数据按照 Google 的政策保存。广告 SDK 的所有网络流量均经过加密。 全球排行榜数据会保存在服务器上，直到你将其删除，或本游戏不再提供全球排行榜。</p>
 
-<h2>9. 政策变更</h2>
+<h2>10. 政策变更</h2>
 <p>如果我们修改本政策，将更新此页面及上方的生效日期。重大变更也会在游戏的更新说明中注明。</p>
 
-<h2>10. 联系我们</h2>
+<h2>11. 联系我们</h2>
 <p>问题或请求： <a href="mailto:numexpress.app@gmail.com">numexpress.app@gmail.com</a></p>
 </section>
 
 <section id="l-ja" lang="ja">
 <h1>プライバシーポリシー</h1>
-<div class="muted">施行日：2026年11月2日。 英語版と内容が異なる場合は、英語版が優先されます。</div>
-<p>NumExpress（以下「本ゲーム」）は、Samir Novruzov（以下「当方」）が開発した iOS・Android 向けの数字探しゲームです。本ポリシーでは、本ゲームが扱う情報とその理由を説明します。本ゲームにはアカウントもログインも当方独自のサーバーもありません。</p>
+<div class="muted">施行日：2026年11月10日 英語版と内容が異なる場合は、英語版が優先されます。</div>
+<p>NumExpress（「本ゲーム」）は、Samir Novruzov（「当方」）が iOS と Android 向けに制作した数字探しゲームです。本ポリシーでは、本ゲームがどの情報をなぜ扱うかを説明します。シンプルです：登録は不要で、本ゲームがメールアドレス、電話番号、パスワードを求めることはありません。当方のサーバーに保存されるのは、世界ランキングでのあなたの記録（第3項）だけです。</p>
 
 <h2>1. 端末内にのみ保存される情報</h2>
 <p>本ゲームは進行状況を記憶するため、以下の情報をお使いの端末に保存します。これらは端末の外に送信されず、当方が見ることもできません：</p>
@@ -400,6 +472,7 @@
   <tr><td>禅モードのヒント数と「広告なし」購入の有無</td><td>ゲーム機能</td></tr>
 </table></div>
 <p>本ゲームを削除すると、これらはすべて削除されます。</p>
+<p>iPhone では、マップの星と記録があなた自身の iCloud アカウント（Apple iCloud のキー値ストレージ）にもコピーされ、新しい iPhone や再インストール後も進行状況が残ります。当方はこのコピーを見ることができず、<a href="https://www.apple.com/legal/privacy/">Apple のプライバシーポリシー</a>が適用されます。Android では、Google アカウントへのシステムバックアップが同様にコピーを保持する場合があります。</p>
 
 <h2>2. 広告（Google AdMob）</h2>
 <p>本ゲームは、お客様が自ら視聴を選んだ場合にのみ動画リワード広告を表示します（「列車を追う」、禅モードのヒント）。広告は Google AdMob が提供します。広告の表示と効果測定のため、Google Mobile Ads SDK は次の情報を収集することがあります：</p>
@@ -412,39 +485,50 @@
 <p>これらのデータは <a href="https://policies.google.com/privacy?hl=ja">Google プライバシー ポリシー</a>に基づき Google が収集・処理します。<a href="https://policies.google.com/technologies/partner-sites?hl=ja">Google のサービスを使用するアプリから収集した情報の Google による使用</a>もご覧ください。当方がこれらのデータをお客様を特定できる形で受け取ることはありません。</p>
 <p><strong>お客様の選択。</strong>iOS では、広告が広告識別子を使用する前に本ゲームが許可を求めます。この設定は「設定 → プライバシーとセキュリティ → トラッキング」でいつでも変更できます。Android では「設定 → Google → 広告」（または「設定 → プライバシー → 広告」）で広告 ID をリセットまたは削除できます。欧州経済領域、英国、スイスでは、広告を表示する前にパーソナライズド広告への同意を求めます。選択は後からゲーム内で変更できます。同意しない場合でも、パーソナライズされていない広告が表示されることがあります。</p>
 
-<h2>3. 購入</h2>
+<h2 id="world-ja">3. 世界ランキング（オンライン）</h2>
+<p>iPhone と Android のプレイヤー共通の世界ランキングを表示するため、本ゲームはあなたの端末用に Google Firebase で匿名アカウント（メール・電話・パスワードなし）を作成し、当方のサーバーに次の情報を送ります：</p>
+<ul>
+  <li>ランキングのあなたの行があなたのものになるよう、ランダムなアカウント ID と番号（ニックネームを決めるまでは「乗客 4821」と表示）；</li>
+  <li>あなたが決めたニックネーム（ある場合）— ランキングで公開されます；</li>
+  <li>クラシック、カオス、ルートでのベストスコアと、そのプレイの日時、長さ、見つけた数の個数（不可能なスコアをサーバーが拒否するため）；</li>
+  <li>他のプレイヤーのニックネームについてあなたが送った報告。</li>
+</ul>
+<p>これらのデータは当方に代わって Google Firebase（Cloud Firestore と Cloud Functions、europe-west1 リージョン、ベルギー）が保存し、通信中は暗号化されます。他のプレイヤーに見えるのはニックネーム（または「乗客」と番号）とスコアだけです。禅モードの結果、設定、第1項の内容はすべて端末内に残ります。サービス提供のため Firebase は IP アドレスなどの技術データも扱います。<a href="https://policies.google.com/privacy?hl=ja">Google プライバシーポリシー</a>と<a href="https://firebase.google.com/support/privacy">Firebase のプライバシー情報</a>をご覧ください。</p>
+<p><strong>データの削除。</strong>本ゲームで <b>指令室 → 世界ランキング → オンラインデータ削除</b> を開くと、ニックネーム、スコア、匿名アカウントがすぐにサーバーから削除されます。当方へのご連絡（「お問い合わせ」参照）でも削除できます。複数のプレイヤーから報告されたニックネームは自動的に削除されます。</p>
+
+<h2>4. 購入</h2>
 <p>任意の購入「広告なし」は、App Store（Apple）または Google Play がすべて処理します。当方がお客様の氏名、カード情報、請求情報を受け取ることはなく、ゲームが機能を有効にするための購入確認のみを受け取ります。<a href="https://www.apple.com/legal/privacy/">Apple のプライバシーポリシー</a>および <a href="https://policies.google.com/privacy?hl=ja">Google プライバシー ポリシー</a>をご覧ください。</p>
 
-<h2>4. 通知</h2>
+<h2>5. 通知</h2>
 <p>毎日のリマインダーをオンにすると、本ゲームは端末上で通知を予約します。サーバーは使用せず、通知に関するデータはどこにも送信されません。リマインダーはゲーム内（指令室）または端末の設定でオフにできます。</p>
 
-<h2>5. 当方が行わないこと</h2>
+<h2>6. 当方が行わないこと</h2>
 <ul>
   <li>氏名、メールアドレス、電話番号、連絡先、写真、カメラ、マイク、正確な位置情報を求めることはありません。</li>
   <li>独自の分析ツールは使用せず、個人データを販売しません。</li>
-  <li>アカウントやユーザープロフィールを作成しません。</li>
+  <li>登録はお願いしません。世界ランキング用の匿名アカウント（第3項）に個人情報は含まれません。</li>
 </ul>
 
-<h2>6. お子様について</h2>
+<h2>7. お子様について</h2>
 <p>本ゲームは全年齢向けですが、13歳未満のお子様を対象としたものではなく、当方がお子様の個人情報を故意に収集することはありません。お子様が本ゲームを通じて個人情報を提供したと思われる場合はご連絡ください。削除をお手伝いします。</p>
 
-<h2>7. お客様の権利</h2>
+<h2>8. お客様の権利</h2>
 <p>お住まいの地域によっては（例：欧州の GDPR、日本の個人情報保護法、カリフォルニア州の CCPA）、個人データへのアクセス、訂正、削除、および処理への異議申し立ての権利があります。当方は個人データを保存していないため、広告データに関するご要望は Google へお寄せいただくのが最適です（<a href="https://myaccount.google.com/data-and-privacy?hl=ja">Google のプライバシー設定</a>）。もちろん当方へのご連絡も歓迎します。</p>
 
-<h2>8. データの保存期間と安全性</h2>
-<p>端末に保存されたデータは、本ゲームを削除するまで端末に残ります。Google が広告のために収集したデータは Google のポリシーに従って保存されます。広告 SDK の通信はすべて暗号化されます。</p>
+<h2>9. データの保存期間と安全性</h2>
+<p>端末に保存されたデータは、本ゲームを削除するまで端末に残ります。Google が広告のために収集したデータは Google のポリシーに従って保存されます。広告 SDK の通信はすべて暗号化されます。 世界ランキングのデータは、あなたが削除するか、本ゲームが世界ランキングの提供を終えるまでサーバーに保存されます。</p>
 
-<h2>9. 本ポリシーの変更</h2>
+<h2>10. 本ポリシーの変更</h2>
 <p>本ポリシーを変更する場合は、このページと上記の施行日を更新します。重要な変更はゲームのアップデート情報にも記載します。</p>
 
-<h2>10. お問い合わせ</h2>
+<h2>11. お問い合わせ</h2>
 <p>ご質問・ご要望： <a href="mailto:numexpress.app@gmail.com">numexpress.app@gmail.com</a></p>
 </section>
 
 <section id="l-ar" lang="ar" dir="rtl">
 <h1>سياسة الخصوصية</h1>
-<div class="muted">تاريخ السريان: 2 نوفمبر 2026. في حال وجود اختلاف مع النسخة الإنجليزية، تُعتمد النسخة الإنجليزية.</div>
-<p>NumExpress («اللعبة») لعبة للبحث عن الأرقام على iOS وAndroid من تطوير سمير نوروزوف («نحن»). توضّح هذه السياسة المعلومات التي تتعامل معها اللعبة وسبب ذلك. الأمر بسيط: لا توجد في اللعبة حسابات ولا تسجيل دخول ولا خوادم خاصة بنا.</p>
+<div class="muted">تاريخ السريان: 10 نوفمبر 2026. في حال وجود اختلاف مع النسخة الإنجليزية، تُعتمد النسخة الإنجليزية.</div>
+<p>NumExpress («اللعبة») لعبة للبحث عن الأرقام على iOS وAndroid من تطوير سمير نوفروزوف («نحن»). توضح هذه السياسة المعلومات التي تتعامل معها اللعبة وسبب ذلك. الأمر بسيط: لا يوجد تسجيل، ولا تطلب اللعبة أبدًا بريدك الإلكتروني أو رقم هاتفك أو كلمة مرور. الشيء الوحيد المحفوظ على خادمنا هو سجلك في الأرقام القياسية العالمية (القسم 3).</p>
 
 <h2>1. معلومات تُحفظ على جهازك فقط</h2>
 <p>تحفظ اللعبة ما يلي على هاتفك لتتذكّر تقدّمك. لا تغادر هذه البيانات جهازك ولا يمكننا رؤيتها:</p>
@@ -456,6 +540,7 @@
   <tr><td>عدد تلميحات وضع زن وما إذا تم شراء «بلا إعلانات»</td><td>ميزات اللعبة</td></tr>
 </table></div>
 <p>حذف اللعبة يحذف كل ذلك.</p>
+<p>على iPhone تُنسخ نجوم الخريطة وأرقامك القياسية أيضًا إلى حساب iCloud الخاص بك (تخزين المفاتيح والقيم في Apple iCloud)، ليبقى تقدّمك على iPhone جديد أو بعد إعادة التثبيت. لا نستطيع رؤية هذه النسخة، وتخضع <a href="https://www.apple.com/legal/privacy/">لسياسة خصوصية Apple</a>. على Android قد تحتفظ النسخة الاحتياطية للنظام في حسابك على Google بنسخة بالطريقة نفسها.</p>
 
 <h2>2. الإعلانات (Google AdMob)</h2>
 <p>تعرض اللعبة إعلانات فيديو بمكافأة فقط عندما تختار مشاهدة إعلان («الحق بالقطار»، تلميحات زن). يوفّر الإعلانات Google AdMob. ولعرض الإعلانات وقياسها، قد تجمع حزمة Google Mobile Ads SDK ما يلي:</p>
@@ -468,39 +553,50 @@
 <p>تجمع Google هذه البيانات وتعالجها وفق <a href="https://policies.google.com/privacy?hl=ar">سياسة خصوصية Google</a>. راجع أيضًا <a href="https://policies.google.com/technologies/partner-sites?hl=ar">كيف تستخدم Google المعلومات من التطبيقات التي تستخدم خدماتها</a>. لا نتلقى هذه البيانات بشكل يحدّد هويتك.</p>
 <p><strong>خياراتك.</strong> على iOS تطلب اللعبة إذنك قبل أن تتمكن الإعلانات من استخدام معرّف الإعلانات؛ ويمكنك تغيير ذلك في أي وقت من الإعدادات ← الخصوصية والأمن ← التتبع. على Android يمكنك إعادة تعيين معرّف الإعلانات أو حذفه من الإعدادات ← Google ← الإعلانات (أو الإعدادات ← الخصوصية ← الإعلانات). في المنطقة الاقتصادية الأوروبية والمملكة المتحدة وسويسرا تطلب اللعبة موافقتك على الإعلانات المخصّصة قبل عرض أي إعلان؛ ويمكنك تغيير اختيارك لاحقًا من داخل اللعبة. إذا رفضت فقد تظل ترى إعلانات غير مخصّصة.</p>
 
-<h2>3. المشتريات</h2>
+<h2 id="world-ar">3. الأرقام القياسية العالمية (عبر الإنترنت)</h2>
+<p>لعرض أرقام قياسية عالمية مشتركة بين لاعبي iPhone وAndroid، تنشئ اللعبة لجهازك حسابًا مجهول الهوية لدى Google Firebase (بلا بريد أو هاتف أو كلمة مرور) وترسل إلى خادمنا:</p>
+<ul>
+  <li>معرّف حساب عشوائيًا ورقمًا، ليكون سطرك في الجداول خاصًا بك (يظهر باسم «راكب 4821» حتى تختار اسمًا مستعارًا)؛</li>
+  <li>الاسم المستعار الذي تختاره إن وُجد — ويظهر للجميع في الجداول؛</li>
+  <li>أفضل نتائجك في الكلاسيكي والفوضى والمسار، مع وقت الجولة ومدتها وعدد الأرقام التي وجدتها، ليرفض الخادم النتائج المستحيلة؛</li>
+  <li>البلاغات التي ترسلها عن الأسماء المستعارة للاعبين آخرين.</li>
+</ul>
+<p>تحفظ Google Firebase هذه البيانات نيابةً عنا (Cloud Firestore وCloud Functions، منطقة europe-west1، بلجيكا) وتُشفَّر أثناء النقل. يرى اللاعبون الآخرون اسمك المستعار (أو «راكب» مع رقم) ونتائجك فقط. نتائج زن والإعدادات وكل ما في القسم 1 تبقى على هاتفك. ولتشغيل الخدمة تعالج Firebase أيضًا بيانات تقنية مثل عنوان IP؛ راجع <a href="https://policies.google.com/privacy?hl=ar">سياسة خصوصية Google</a> و<a href="https://firebase.google.com/support/privacy">معلومات الخصوصية في Firebase</a>.</p>
+<p><strong>حذف بياناتك.</strong> في اللعبة افتح <b>غرفة التحكم ← الأرقام القياسية العالمية ← حذف بياناتي</b>: يُحذف اسمك المستعار ونتائجك وحسابك المجهول من الخادم فورًا. يمكنك أيضًا مراسلتنا (انظر التواصل) وسنحذفها. تُزال الأسماء المستعارة التي أبلغ عنها عدة لاعبين تلقائيًا.</p>
+
+<h2>4. المشتريات</h2>
 <p>تتم عملية الشراء الاختيارية «بلا إعلانات» بالكامل عبر App Store (Apple) أو Google Play. لا نتلقى اسمك أو بيانات بطاقتك أو الفوترة، بل تأكيدًا بإتمام الشراء فقط حتى تفعّل اللعبة الميزة. راجع <a href="https://www.apple.com/legal/privacy/">سياسة خصوصية Apple</a> و<a href="https://policies.google.com/privacy?hl=ar">سياسة خصوصية Google</a>.</p>
 
-<h2>4. الإشعارات</h2>
+<h2>5. الإشعارات</h2>
 <p>إذا فعّلت التذكير اليومي، تجدوله اللعبة على هاتفك. لا يُستخدم أي خادم ولا تُرسل أي بيانات إشعارات. يمكنك إيقافه من اللعبة (غرفة التحكم) أو من إعدادات هاتفك.</p>
 
-<h2>5. ما لا نفعله</h2>
+<h2>6. ما لا نفعله</h2>
 <ul>
   <li>لا نطلب اسمك أو بريدك الإلكتروني أو رقم هاتفك أو جهات اتصالك أو صورك أو الكاميرا أو الميكروفون أو موقعك الدقيق.</li>
   <li>لا نستخدم أدوات تحليل خاصة بنا ولا نبيع البيانات الشخصية.</li>
-  <li>لا ننشئ حسابات أو ملفات تعريف للمستخدمين.</li>
+  <li>لا نطلب منك التسجيل؛ الحساب المجهول للأرقام القياسية العالمية (القسم 3) لا يحتوي على بيانات شخصية.</li>
 </ul>
 
-<h2>6. الأطفال</h2>
+<h2>7. الأطفال</h2>
 <p>اللعبة مناسبة لعامة الجمهور لكنها غير موجّهة للأطفال دون 13 عامًا، ولا نجمع معلوماتهم الشخصية عن قصد. إذا كنت تعتقد أن طفلًا قدّم معلومات شخصية عبر اللعبة، فتواصل معنا وسنساعد في حذفها.</p>
 
-<h2>7. حقوقك</h2>
+<h2>8. حقوقك</h2>
 <p>بحسب مكان إقامتك (مثل اللائحة العامة لحماية البيانات GDPR في أوروبا أو CCPA في كاليفورنيا) قد يحق لك الوصول إلى بياناتك الشخصية أو تصحيحها أو حذفها والاعتراض على معالجتها. ولأننا لا نخزّن بيانات شخصية بأنفسنا، فمن الأفضل توجيه الطلبات المتعلقة ببيانات الإعلانات إلى Google (<a href="https://myaccount.google.com/data-and-privacy?hl=ar">إعدادات الخصوصية في Google</a>). ويمكنك دائمًا مراسلتنا وسنساعدك.</p>
 
-<h2>8. الاحتفاظ بالبيانات وأمانها</h2>
-<p>تبقى البيانات المخزّنة على جهازك حتى تحذف اللعبة. وتُحفظ البيانات التي تجمعها Google للإعلانات وفق سياسات Google. جميع اتصالات الشبكة الخاصة بحزمة الإعلانات مشفّرة.</p>
+<h2>9. الاحتفاظ بالبيانات وأمانها</h2>
+<p>تبقى البيانات المخزّنة على جهازك حتى تحذف اللعبة. وتُحفظ البيانات التي تجمعها Google للإعلانات وفق سياسات Google. جميع اتصالات الشبكة الخاصة بحزمة الإعلانات مشفّرة. تبقى بيانات الأرقام القياسية العالمية على الخادم حتى تحذفها أو حتى تتوقف اللعبة عن تقديم الأرقام القياسية العالمية.</p>
 
-<h2>9. التغييرات على هذه السياسة</h2>
+<h2>10. التغييرات على هذه السياسة</h2>
 <p>إذا غيّرنا هذه السياسة فسنحدّث هذه الصفحة وتاريخ السريان أعلاه. وسنذكر التغييرات المهمة أيضًا في ملاحظات تحديث اللعبة.</p>
 
-<h2>10. التواصل</h2>
+<h2>11. التواصل</h2>
 <p>للأسئلة أو الطلبات: <a href="mailto:numexpress.app@gmail.com">numexpress.app@gmail.com</a></p>
 </section>
 
 <section id="l-az" lang="az">
 <h1>Məxfilik siyasəti</h1>
-<div class="muted">Qüvvəyə minmə tarixi: 2 noyabr 2026. İngilis dilindəki versiya ilə fərq olduqda ingiliscə versiya əsas götürülür.</div>
-<p>NumExpress (“Oyun”) Samir Novruzov (“biz”) tərəfindən iOS və Android üçün hazırlanmış rəqəm tapma oyunudur. Bu siyasət Oyunun hansı məlumatları və nə üçün emal etdiyini izah edir. Hər şey sadədir: Oyunda hesab, giriş və bizə məxsus server yoxdur.</p>
+<div class="muted">Qüvvəyə minmə tarixi: 10 noyabr 2026. İngilis dilindəki versiya ilə fərq olduqda ingiliscə versiya əsas götürülür.</div>
+<p>NumExpress («Oyun») Samir Novruzov («biz») tərəfindən iOS və Android üçün hazırlanmış rəqəm tapma oyunudur. Bu siyasət Oyunun hansı məlumatları və nə üçün emal etdiyini izah edir. Hər şey sadədir: qeydiyyat yoxdur və Oyun heç vaxt e-poçt, telefon nömrəsi və ya parol istəmir. Serverimizdə yalnız dünya rekordlarındakı qeydiniz saxlanılır (bölmə 3).</p>
 
 <h2>1. Yalnız cihazınızda saxlanılan məlumatlar</h2>
 <p>Oyun irəliləyişinizi yadda saxlamaq üçün telefonunuzda aşağıdakıları saxlayır. Bu məlumatlar cihazınızdan kənara çıxmır və biz onları görə bilmirik:</p>
@@ -512,6 +608,7 @@
   <tr><td>Zen ipuclarının sayı və “Reklamsız” alınıb-alınmaması</td><td>Oyun funksiyaları</td></tr>
 </table></div>
 <p>Oyunu silsəniz, bütün bunlar da silinir.</p>
+<p>iPhone-da xəritə ulduzlarınız və rekordlarınız həm də öz iCloud hesabınıza (Apple iCloud açar-dəyər yaddaşı) köçürülür ki, yeni iPhone-da və ya yenidən quraşdırmada irəliləyişiniz qalsın. Bu nüsxəni biz görmürük; ona <a href="https://www.apple.com/legal/privacy/">Apple Məxfilik Siyasəti</a> şamil olunur. Android-də Google hesabınıza edilən sistem ehtiyat nüsxəsi də eyni şəkildə nüsxə saxlaya bilər.</p>
 
 <h2>2. Reklam (Google AdMob)</h2>
 <p>Oyun mükafatlı video reklamı yalnız siz özünüz baxmağı seçdikdə göstərir (“Qatara çat”, Zen ipucları). Reklamları Google AdMob təqdim edir. Reklamı göstərmək və ölçmək üçün Google Mobile Ads SDK bunları toplaya bilər:</p>
@@ -524,39 +621,50 @@
 <p>Bu məlumatları Google <a href="https://policies.google.com/privacy?hl=az">Google Məxfilik Siyasətinə</a> uyğun olaraq toplayır və emal edir. Həmçinin baxın: <a href="https://policies.google.com/technologies/partner-sites?hl=az">Google öz xidmətlərindən istifadə edən tətbiqlərin məlumatlarından necə istifadə edir</a>. Biz bu məlumatları sizi tanımağa imkan verən formada almırıq.</p>
 <p><strong>Seçimləriniz.</strong> iOS-da Oyun reklamın reklam identifikatorunuzdan istifadə etməsinə icazə istəyir; bunu istənilən vaxt Ayarlar → Məxfilik və təhlükəsizlik → İzləmə bölməsində dəyişə bilərsiniz. Android-də Reklam ID-sini Ayarlar → Google → Reklamlar (və ya Ayarlar → Məxfilik → Reklamlar) bölməsində sıfırlaya və ya silə bilərsiniz. Avropa İqtisadi Zonasında, Böyük Britaniyada və İsveçrədə Oyun reklam göstərməzdən əvvəl fərdiləşdirilmiş reklam üçün razılığınızı soruşur; seçiminizi sonra Oyunda dəyişə bilərsiniz. İmtina etsəniz, fərdiləşdirilməmiş reklamlar yenə göstərilə bilər.</p>
 
-<h2>3. Alışlar</h2>
+<h2 id="world-az">3. Dünya rekordları (onlayn)</h2>
+<p>iPhone və Android oyunçuları üçün ortaq dünya rekordlarını göstərmək məqsədilə Oyun cihazınız üçün Google Firebase-də anonim hesab yaradır (e-poçt, telefon və ya parol olmadan) və serverimizə bunları göndərir:</p>
+<ul>
+  <li>cədvəllərdəki sətrin sizə aid olması üçün təsadüfi hesab ID-si və nömrə (ləqəb seçənə qədər «Sərnişin 4821» kimi göstərilir);</li>
+  <li>seçdiyiniz ləqəb, əgər varsa — cədvəllərdə hamıya görünür;</li>
+  <li>serverin mümkünsüz nəticələri rədd etməsi üçün Klassik, Xaos və Marşrutdakı ən yaxşı nəticələriniz, səfərin vaxtı, müddəti və tapılan rəqəmlərin sayı;</li>
+  <li>digər oyunçuların ləqəbləri barədə göndərdiyiniz şikayətlər.</li>
+</ul>
+<p>Bu məlumatları bizim adımıza Google Firebase (Cloud Firestore və Cloud Functions, europe-west1 regionu, Belçika) saxlayır, ötürülmə zamanı şifrələnir. Digər oyunçular yalnız ləqəbinizi (və ya nömrəli «Sərnişin») və nəticələrinizi görür. Zen nəticələri, ayarlar və bölmə 1-dəki hər şey telefonunuzda qalır. Xidmətin işləməsi üçün Firebase IP ünvanı kimi texniki məlumatları da emal edir; <a href="https://policies.google.com/privacy?hl=az">Google Məxfilik Siyasətinə</a> və <a href="https://firebase.google.com/support/privacy">Firebase məxfilik məlumatlarına</a> baxın.</p>
+<p><strong>Məlumatlarınızın silinməsi.</strong> Oyunda <b>DİSPETÇER → DÜNYA REKORDLARI → ONLAYN MƏLUMATI SİL</b> seçin: ləqəbiniz, nəticələriniz və anonim hesabınız dərhal serverdən silinir. Bizə yazaraq da (bax: Əlaqə) silinməsini istəyə bilərsiniz. Bir neçə oyunçunun şikayət etdiyi ləqəblər avtomatik silinir.</p>
+
+<h2>4. Alışlar</h2>
 <p>İstəyə bağlı “Reklamsız” alışını tamamilə App Store (Apple) və ya Google Play həyata keçirir. Biz adınızı, kart və ya ödəniş məlumatlarınızı almırıq — yalnız Oyunun funksiyanı aça bilməsi üçün alışın təsdiqini alırıq. Baxın: <a href="https://www.apple.com/legal/privacy/">Apple Məxfilik Siyasəti</a> və <a href="https://policies.google.com/privacy?hl=az">Google Məxfilik Siyasəti</a>.</p>
 
-<h2>4. Bildirişlər</h2>
+<h2>5. Bildirişlər</h2>
 <p>Gündəlik xatırlatmanı yandırsanız, Oyun onu telefonunuzun özündə planlaşdırır. Heç bir server iştirak etmir və bildiriş məlumatları heç yerə göndərilmir. Xatırlatmanı Oyunda (Dispetçer) və ya telefonun ayarlarında söndürə bilərsiniz.</p>
 
-<h2>5. Etmədiklərimiz</h2>
+<h2>6. Etmədiklərimiz</h2>
 <ul>
   <li>Adınızı, e-poçtunuzu, telefon nömrənizi, kontaktlarınızı, şəkillərinizi, kameranı, mikrofonu və dəqiq yerinizi istəmirik.</li>
   <li>Öz analitikamızı aparmırıq və şəxsi məlumatları satmırıq.</li>
-  <li>Hesab və ya istifadəçi profili yaratmırıq.</li>
+  <li>Qeydiyyat tələb etmirik; dünya rekordları üçün anonim hesab (bölmə 3) şəxsi məlumat saxlamır.</li>
 </ul>
 
-<h2>6. Uşaqlar</h2>
+<h2>7. Uşaqlar</h2>
 <p>Oyun geniş auditoriya üçün uyğundur, lakin 13 yaşdan kiçik uşaqlar üçün nəzərdə tutulmayıb və biz onların şəxsi məlumatlarını bilərəkdən toplamırıq. Uşağın Oyun vasitəsilə şəxsi məlumat verdiyini düşünürsünüzsə, bizə yazın, silinməsinə kömək edək.</p>
 
-<h2>7. Hüquqlarınız</h2>
+<h2>8. Hüquqlarınız</h2>
 <p>Yaşadığınız yerdən asılı olaraq (məsələn, Avropada GDPR və ya Kaliforniyada CCPA üzrə) şəxsi məlumatlarınıza çıxış, onları düzəltmək və ya silmək, həmçinin emalına etiraz etmək hüququnuz ola bilər. Biz özümüz şəxsi məlumat saxlamadığımız üçün reklam məlumatları ilə bağlı müraciətləri Google-a ünvanlamaq daha yaxşıdır (<a href="https://myaccount.google.com/data-and-privacy?hl=az">Google məxfilik ayarları</a>). İstənilən vaxt bizə yaza bilərsiniz, kömək edərik.</p>
 
-<h2>8. Saxlama və təhlükəsizlik</h2>
-<p>Cihazınızdakı məlumatlar Oyunu silənə qədər orada qalır. Google-un reklam üçün topladığı məlumatlar Google-un qaydalarına uyğun saxlanılır. Reklam SDK-sının bütün şəbəkə trafiki şifrələnir.</p>
+<h2>9. Saxlama və təhlükəsizlik</h2>
+<p>Cihazınızdakı məlumatlar Oyunu silənə qədər orada qalır. Google-un reklam üçün topladığı məlumatlar Google-un qaydalarına uyğun saxlanılır. Reklam SDK-sının bütün şəbəkə trafiki şifrələnir. Dünya rekordları məlumatları siz silənə və ya Oyun dünya rekordlarını təklif etməyi dayandırana qədər serverdə qalır.</p>
 
-<h2>9. Siyasətdə dəyişikliklər</h2>
+<h2>10. Siyasətdə dəyişikliklər</h2>
 <p>Bu siyasəti dəyişsək, bu səhifəni və yuxarıdakı qüvvəyə minmə tarixini yeniləyəcəyik. Əhəmiyyətli dəyişikliklər Oyunun yeniləmə qeydlərində də göstəriləcək.</p>
 
-<h2>10. Əlaqə</h2>
+<h2>11. Əlaqə</h2>
 <p>Suallar və müraciətlər: <a href="mailto:numexpress.app@gmail.com">numexpress.app@gmail.com</a></p>
 </section>
 
 <section id="l-de" lang="de">
 <h1>Datenschutzerklärung</h1>
-<div class="muted">Gültig ab: 2. November 2026. Bei Abweichungen von der englischen Fassung ist die englische Fassung maßgeblich.</div>
-<p>NumExpress (das „Spiel“) ist ein Zahlensuchspiel für iOS und Android von Samir Novruzov („wir“). Diese Erklärung beschreibt, welche Daten das Spiel verarbeitet und warum. Kurz gesagt: Das Spiel hat keine Konten, keine Anmeldung und keine eigenen Server.</p>
+<div class="muted">Gültig ab: 10. November 2026. Bei Abweichungen von der englischen Fassung ist die englische Fassung maßgeblich.</div>
+<p>NumExpress (das „Spiel“) ist ein Zahlensuchspiel für iOS und Android von Samir Novruzov („wir“). Diese Richtlinie erklärt, welche Informationen das Spiel verarbeitet und warum. Es ist einfach: Es gibt keine Registrierung, und das Spiel fragt nie nach E-Mail, Telefonnummer oder Passwort. Auf unserem Server liegt nur dein Eintrag in den Weltrekorden (Abschnitt 3).</p>
 
 <h2>1. Daten, die nur auf deinem Gerät gespeichert werden</h2>
 <p>Damit das Spiel deinen Fortschritt kennt, speichert es Folgendes auf deinem Telefon. Diese Daten verlassen dein Gerät nie und wir können sie nicht sehen:</p>
@@ -568,6 +676,7 @@
   <tr><td>Anzahl der Zen-Hinweise und ob „Ohne Werbung“ gekauft wurde</td><td>Spielfunktionen</td></tr>
 </table></div>
 <p>Wenn du das Spiel löschst, wird all das gelöscht.</p>
+<p>Auf dem iPhone werden deine Sterne auf der Karte und deine Rekorde auch in dein eigenes iCloud-Konto kopiert (Apple iCloud Key-Value-Speicher), damit ein neues iPhone oder eine Neuinstallation deinen Fortschritt behält. Wir sehen diese Kopie nicht; es gilt die <a href="https://www.apple.com/legal/privacy/">Datenschutzrichtlinie von Apple</a>. Unter Android kann die Systemsicherung in deinem Google-Konto ebenso eine Kopie behalten.</p>
 
 <h2>2. Werbung (Google AdMob)</h2>
 <p>Das Spiel zeigt Videowerbung mit Belohnung nur, wenn du dich selbst dafür entscheidest („Zug erwischen“, Zen-Hinweise). Die Werbung stammt von Google AdMob. Um Werbung anzuzeigen und zu messen, kann das Google Mobile Ads SDK Folgendes erfassen:</p>
@@ -580,39 +689,50 @@
 <p>Diese Daten werden von Google gemäß der <a href="https://policies.google.com/privacy?hl=de">Datenschutzerklärung von Google</a> erhoben und verarbeitet. Siehe auch, <a href="https://policies.google.com/technologies/partner-sites?hl=de">wie Google Daten aus Apps verwendet, die Google-Dienste nutzen</a>. Wir erhalten diese Daten nicht in einer Form, die dich identifiziert.</p>
 <p><strong>Deine Wahl.</strong> Unter iOS fragt das Spiel um Erlaubnis, bevor Werbung deine Werbe-ID nutzen darf; du kannst das jederzeit unter Einstellungen → Datenschutz &amp; Sicherheit → Tracking ändern. Unter Android kannst du deine Werbe-ID unter Einstellungen → Google → Anzeigen (oder Einstellungen → Datenschutz → Anzeigen) zurücksetzen oder löschen. Im Europäischen Wirtschaftsraum, im Vereinigten Königreich und in der Schweiz fragt das Spiel vor jeder Werbung nach deiner Einwilligung in personalisierte Werbung; du kannst deine Wahl später im Spiel ändern. Wenn du ablehnst, kann dir weiterhin nicht personalisierte Werbung angezeigt werden.</p>
 
-<h2>3. Käufe</h2>
+<h2 id="world-de">3. Weltrekorde (online)</h2>
+<p>Um gemeinsame Weltrekorde für iPhone- und Android-Spieler zu zeigen, legt das Spiel für dein Gerät ein anonymes Konto bei Google Firebase an (ohne E-Mail, Telefon oder Passwort) und sendet an unseren Server:</p>
+<ul>
+  <li>eine zufällige Konto-ID und eine Nummer, damit deine Zeile in den Ranglisten dir gehört (angezeigt als „Fahrgast 4821“, bis du einen Namen wählst);</li>
+  <li>den Spielernamen, den du wählst, falls vorhanden – er ist in den Ranglisten öffentlich sichtbar;</li>
+  <li>deine besten Ergebnisse in Klassik, Chaos und Route mit Zeitpunkt, Dauer der Fahrt und Anzahl gefundener Zahlen, damit der Server unmögliche Ergebnisse ablehnen kann;</li>
+  <li>Meldungen, die du zu Namen anderer Spieler sendest.</li>
+</ul>
+<p>Diese Daten speichert Google Firebase für uns (Cloud Firestore und Cloud Functions, Region europe-west1, Belgien); bei der Übertragung sind sie verschlüsselt. Andere Spieler sehen nur deinen Namen (oder „Fahrgast“ mit Nummer) und deine Ergebnisse. Zen-Ergebnisse, Einstellungen und alles aus Abschnitt 1 bleiben auf deinem Handy. Für den Betrieb verarbeitet Firebase auch technische Daten wie deine IP-Adresse; siehe die <a href="https://policies.google.com/privacy?hl=de">Datenschutzerklärung von Google</a> und die <a href="https://firebase.google.com/support/privacy">Datenschutzinformationen von Firebase</a>.</p>
+<p><strong>Daten löschen.</strong> Öffne im Spiel <b>STELLWERK → WELTRANGLISTE → ONLINE-DATEN LÖSCHEN</b>: Name, Ergebnisse und anonymes Konto werden sofort vom Server gelöscht. Du kannst uns auch schreiben (siehe Kontakt), dann löschen wir sie. Namen, die mehrere Spieler melden, werden automatisch entfernt.</p>
+
+<h2>4. Käufe</h2>
 <p>Der optionale Kauf „Ohne Werbung“ wird vollständig vom App Store (Apple) oder von Google Play abgewickelt. Wir erhalten weder deinen Namen noch Karten- oder Rechnungsdaten — nur eine Bestätigung des Kaufs, damit das Spiel ihn freischalten kann. Siehe die <a href="https://www.apple.com/legal/privacy/">Datenschutzrichtlinie von Apple</a> und die <a href="https://policies.google.com/privacy?hl=de">Datenschutzerklärung von Google</a>.</p>
 
-<h2>4. Benachrichtigungen</h2>
+<h2>5. Benachrichtigungen</h2>
 <p>Wenn du die tägliche Erinnerung einschaltest, plant das Spiel sie auf deinem Telefon. Es ist kein Server beteiligt und es werden keine Benachrichtigungsdaten gesendet. Du kannst sie im Spiel (Stellwerk) oder in den Einstellungen deines Telefons ausschalten.</p>
 
-<h2>5. Was wir nicht tun</h2>
+<h2>6. Was wir nicht tun</h2>
 <ul>
   <li>Wir fragen nicht nach Name, E-Mail, Telefonnummer, Kontakten, Fotos, Kamera, Mikrofon oder genauem Standort.</li>
   <li>Wir betreiben keine eigene Analyse und verkaufen keine personenbezogenen Daten.</li>
-  <li>Wir legen keine Konten oder Nutzerprofile an.</li>
+  <li>Wir verlangen keine Registrierung; das anonyme Weltrekord-Konto (Abschnitt 3) enthält keine persönlichen Angaben.</li>
 </ul>
 
-<h2>6. Kinder</h2>
+<h2>7. Kinder</h2>
 <p>Das Spiel ist für alle Altersgruppen geeignet, richtet sich aber nicht an Kinder unter 13 Jahren, und wir erheben wissentlich keine personenbezogenen Daten von ihnen. Wenn du glaubst, dass ein Kind über das Spiel personenbezogene Daten angegeben hat, schreib uns und wir helfen beim Löschen.</p>
 
-<h2>7. Deine Rechte</h2>
+<h2>8. Deine Rechte</h2>
 <p>Je nach Wohnort (z. B. nach der DSGVO in Europa oder dem CCPA in Kalifornien) hast du möglicherweise das Recht auf Auskunft, Berichtigung und Löschung deiner personenbezogenen Daten sowie auf Widerspruch gegen ihre Verarbeitung. Da wir selbst keine personenbezogenen Daten speichern, richtest du Anfragen zu Werbedaten am besten an Google (<a href="https://myaccount.google.com/data-and-privacy?hl=de">Datenschutzeinstellungen von Google</a>). Du kannst uns aber jederzeit schreiben, wir helfen dir. Außerdem hast du das Recht, dich bei einer Datenschutz-Aufsichtsbehörde zu beschweren.</p>
 
-<h2>8. Speicherdauer und Sicherheit</h2>
-<p>Daten auf deinem Gerät bleiben dort, bis du das Spiel löschst. Von Google für Werbung erhobene Daten werden gemäß den Richtlinien von Google gespeichert. Der gesamte Netzwerkverkehr des Werbe-SDK ist verschlüsselt.</p>
+<h2>9. Speicherdauer und Sicherheit</h2>
+<p>Daten auf deinem Gerät bleiben dort, bis du das Spiel löschst. Von Google für Werbung erhobene Daten werden gemäß den Richtlinien von Google gespeichert. Der gesamte Netzwerkverkehr des Werbe-SDK ist verschlüsselt. Weltrekord-Daten bleiben auf dem Server, bis du sie löschst oder das Spiel keine Weltrekorde mehr anbietet.</p>
 
-<h2>9. Änderungen dieser Erklärung</h2>
+<h2>10. Änderungen dieser Erklärung</h2>
 <p>Wenn wir diese Erklärung ändern, aktualisieren wir diese Seite und das oben genannte Datum. Wesentliche Änderungen werden auch in den Update-Hinweisen des Spiels erwähnt.</p>
 
-<h2>10. Kontakt</h2>
+<h2>11. Kontakt</h2>
 <p>Fragen oder Anfragen: <a href="mailto:numexpress.app@gmail.com">numexpress.app@gmail.com</a></p>
 </section>
 
 <section id="l-it" lang="it">
 <h1>Informativa sulla privacy</h1>
-<div class="muted">Data di entrata in vigore: 2 novembre 2026. In caso di discrepanze con la versione inglese, prevale la versione inglese.</div>
-<p>NumExpress (il “Gioco”) è un gioco in cui si cercano numeri, per iOS e Android, creato da Samir Novruzov (“noi”). Questa informativa spiega quali informazioni tratta il Gioco e perché. In breve: il Gioco non ha account, né accesso, né server propri.</p>
+<div class="muted">Data di entrata in vigore: 10 novembre 2026. In caso di discrepanze con la versione inglese, prevale la versione inglese.</div>
+<p>NumExpress (il «Gioco») è un gioco di ricerca dei numeri per iOS e Android creato da Samir Novruzov («noi»). Questa informativa spiega quali informazioni tratta il Gioco e perché. È semplice: nessuna registrazione, e il Gioco non chiede mai email, numero di telefono o password. Sul nostro server c’è solo la tua riga nei record mondiali (sezione 3).</p>
 
 <h2>1. Informazioni salvate solo sul tuo dispositivo</h2>
 <p>Per ricordare i tuoi progressi, il Gioco salva sul telefono quanto segue. Questi dati non lasciano mai il tuo dispositivo e noi non possiamo vederli:</p>
@@ -624,6 +744,7 @@
   <tr><td>Numero di suggerimenti Zen e acquisto di “Senza pubblicità”</td><td>Funzioni del gioco</td></tr>
 </table></div>
 <p>Eliminando il Gioco si elimina tutto questo.</p>
+<p>Su iPhone le stelle della mappa e i record vengono copiati anche nel tuo account iCloud (archivio chiave-valore di Apple iCloud), così un nuovo iPhone o una reinstallazione mantiene i tuoi progressi. Non possiamo vedere questa copia; si applica l’<a href="https://www.apple.com/legal/privacy/">Informativa sulla privacy di Apple</a>. Su Android il backup di sistema nel tuo account Google può conservarne una copia allo stesso modo.</p>
 
 <h2>2. Pubblicità (Google AdMob)</h2>
 <p>Il Gioco mostra video pubblicitari con premio solo quando scegli tu di guardarne uno (“Prendi il treno”, suggerimenti Zen). La pubblicità è fornita da Google AdMob. Per mostrare e misurare gli annunci, l’SDK Google Mobile Ads può raccogliere:</p>
@@ -636,39 +757,50 @@
 <p>Questi dati sono raccolti e trattati da Google ai sensi delle <a href="https://policies.google.com/privacy?hl=it">Norme sulla privacy di Google</a>. Vedi anche <a href="https://policies.google.com/technologies/partner-sites?hl=it">come Google utilizza le informazioni delle app che usano i suoi servizi</a>. Non riceviamo questi dati in una forma che ti identifichi.</p>
 <p><strong>Le tue scelte.</strong> Su iOS il Gioco chiede il tuo permesso prima che gli annunci possano usare il tuo identificatore pubblicitario; puoi cambiarlo in qualsiasi momento in Impostazioni → Privacy e sicurezza → Tracciamento. Su Android puoi reimpostare o eliminare l’ID pubblicità in Impostazioni → Google → Annunci (o Impostazioni → Privacy → Annunci). Nello Spazio economico europeo, nel Regno Unito e in Svizzera il Gioco chiede il tuo consenso agli annunci personalizzati prima di mostrarne; puoi cambiare la tua scelta in seguito dal Gioco. Se rifiuti, potresti comunque vedere annunci non personalizzati.</p>
 
-<h2>3. Acquisti</h2>
+<h2 id="world-it">3. Record mondiali (online)</h2>
+<p>Per mostrare record mondiali condivisi tra giocatori iPhone e Android, il Gioco crea per il tuo dispositivo un account anonimo su Google Firebase (senza email, telefono o password) e invia al nostro server:</p>
+<ul>
+  <li>un ID account casuale e un numero, perché la tua riga nelle classifiche sia tua (mostrata come «Passeggero 4821» finché non scegli un nickname);</li>
+  <li>il nickname che scegli, se lo scegli: è visibile pubblicamente nelle classifiche;</li>
+  <li>i tuoi migliori punteggi in Classica, Caos e Percorso, con ora della corsa, durata e quanti numeri hai trovato, così il server può rifiutare punteggi impossibili;</li>
+  <li>le segnalazioni che invii sui nickname di altri giocatori.</li>
+</ul>
+<p>Questi dati sono conservati per noi da Google Firebase (Cloud Firestore e Cloud Functions, regione europe-west1, Belgio) e cifrati durante il trasferimento. Gli altri giocatori vedono solo il tuo nickname (o «Passeggero» con numero) e i punteggi. I risultati Zen, le impostazioni e tutto ciò che è nella sezione 1 restano sul telefono. Per funzionare, Firebase tratta anche dati tecnici come l’indirizzo IP; vedi l’<a href="https://policies.google.com/privacy?hl=it">Informativa sulla privacy di Google</a> e le <a href="https://firebase.google.com/support/privacy">informazioni sulla privacy di Firebase</a>.</p>
+<p><strong>Eliminare i tuoi dati.</strong> Nel Gioco apri <b>SALA CONTROLLO → RECORD MONDIALI → ELIMINA DATI ONLINE</b>: nickname, punteggi e account anonimo vengono subito rimossi dal server. Puoi anche scriverci (vedi Contatti) e li elimineremo. I nickname segnalati da più giocatori vengono rimossi automaticamente.</p>
+
+<h2>4. Acquisti</h2>
 <p>L’acquisto facoltativo “Senza pubblicità” è gestito interamente da App Store (Apple) o Google Play. Non riceviamo il tuo nome, la carta o i dati di fatturazione, ma solo la conferma dell’acquisto, così il Gioco può attivarlo. Vedi l’<a href="https://www.apple.com/legal/privacy/">Informativa sulla privacy di Apple</a> e le <a href="https://policies.google.com/privacy?hl=it">Norme sulla privacy di Google</a>.</p>
 
-<h2>4. Notifiche</h2>
+<h2>5. Notifiche</h2>
 <p>Se attivi il promemoria giornaliero, il Gioco lo programma sul tuo telefono. Non è coinvolto alcun server e nessun dato di notifica viene inviato. Puoi disattivarlo nel Gioco (Sala controllo) o nelle impostazioni del telefono.</p>
 
-<h2>5. Cosa non facciamo</h2>
+<h2>6. Cosa non facciamo</h2>
 <ul>
   <li>Non chiediamo nome, email, numero di telefono, contatti, foto, fotocamera, microfono o posizione precisa.</li>
   <li>Non usiamo strumenti di analisi propri e non vendiamo dati personali.</li>
-  <li>Non creiamo account né profili utente.</li>
+  <li>Non ti chiediamo di registrarti; l’account anonimo dei record mondiali (sezione 3) non contiene dati personali.</li>
 </ul>
 
-<h2>6. Minori</h2>
+<h2>7. Minori</h2>
 <p>Il Gioco è adatto a tutti ma non è rivolto ai minori di 13 anni, e non raccogliamo consapevolmente i loro dati personali. Se ritieni che un minore abbia fornito dati personali tramite il Gioco, contattaci e ti aiuteremo a eliminarli.</p>
 
-<h2>7. I tuoi diritti</h2>
+<h2>8. I tuoi diritti</h2>
 <p>A seconda di dove vivi (ad esempio ai sensi del GDPR in Europa o del CCPA in California) potresti avere il diritto di accedere ai tuoi dati personali, rettificarli o cancellarli e di opporti al loro trattamento. Poiché non conserviamo noi stessi dati personali, è meglio rivolgere le richieste sui dati pubblicitari a Google (<a href="https://myaccount.google.com/data-and-privacy?hl=it">impostazioni privacy di Google</a>). Puoi sempre scriverci e ti aiuteremo. Hai anche il diritto di presentare reclamo a un’autorità di controllo per la protezione dei dati.</p>
 
-<h2>8. Conservazione e sicurezza</h2>
-<p>I dati salvati sul tuo dispositivo restano lì finché non elimini il Gioco. I dati raccolti da Google per la pubblicità sono conservati secondo le norme di Google. Tutto il traffico di rete dell’SDK pubblicitario è crittografato.</p>
+<h2>9. Conservazione e sicurezza</h2>
+<p>I dati salvati sul tuo dispositivo restano lì finché non elimini il Gioco. I dati raccolti da Google per la pubblicità sono conservati secondo le norme di Google. Tutto il traffico di rete dell’SDK pubblicitario è crittografato. I dati dei record mondiali restano sul server finché non li elimini o finché il Gioco non smette di offrire i record mondiali.</p>
 
-<h2>9. Modifiche a questa informativa</h2>
+<h2>10. Modifiche a questa informativa</h2>
 <p>Se modifichiamo questa informativa, aggiorneremo questa pagina e la data indicata sopra. Le modifiche importanti saranno segnalate anche nelle note di aggiornamento del Gioco.</p>
 
-<h2>10. Contatti</h2>
+<h2>11. Contatti</h2>
 <p>Domande o richieste: <a href="mailto:numexpress.app@gmail.com">numexpress.app@gmail.com</a></p>
 </section>
 
 <section id="l-pl" lang="pl">
 <h1>Polityka prywatności</h1>
-<div class="muted">Data wejścia w życie: 2 listopada 2026 r. W razie rozbieżności z wersją angielską rozstrzyga wersja angielska.</div>
-<p>NumExpress („Gra”) to gra w szukanie liczb na iOS i Androida stworzona przez Samira Novruzova („my”). Ta polityka wyjaśnia, jakie informacje przetwarza Gra i dlaczego. W skrócie: Gra nie ma kont, logowania ani własnych serwerów.</p>
+<div class="muted">Data wejścia w życie: 10 listopada 2026 r. W razie rozbieżności z wersją angielską rozstrzyga wersja angielska.</div>
+<p>NumExpress („Gra”) to gra w szukanie liczb na iOS i Androida stworzona przez Samira Novruzova („my”). Ta polityka wyjaśnia, jakie informacje przetwarza Gra i dlaczego. To proste: nie ma rejestracji, a Gra nigdy nie prosi o e-mail, numer telefonu ani hasło. Na naszym serwerze jest tylko Twój wpis w rekordach światowych (sekcja 3).</p>
 
 <h2>1. Informacje przechowywane tylko na Twoim urządzeniu</h2>
 <p>Aby pamiętać Twoje postępy, Gra zapisuje na telefonie następujące dane. Nigdy nie opuszczają one Twojego urządzenia i nie mamy do nich wglądu:</p>
@@ -680,6 +812,7 @@
   <tr><td>Liczba podpowiedzi Zen i to, czy kupiono „Bez reklam”</td><td>Funkcje gry</td></tr>
 </table></div>
 <p>Usunięcie Gry usuwa wszystkie te dane.</p>
+<p>Na iPhonie gwiazdki z mapy i rekordy są też kopiowane na Twoje własne konto iCloud (magazyn klucz-wartość Apple iCloud), aby nowy iPhone lub ponowna instalacja zachowały postępy. Nie widzimy tej kopii; obowiązuje <a href="https://www.apple.com/legal/privacy/">Polityka prywatności Apple</a>. Na Androidzie systemowa kopia zapasowa na koncie Google może przechowywać kopię w ten sam sposób.</p>
 
 <h2>2. Reklamy (Google AdMob)</h2>
 <p>Gra wyświetla reklamy wideo z nagrodą tylko wtedy, gdy sam zdecydujesz się je obejrzeć („Zdąż na pociąg”, podpowiedzi Zen). Reklamy dostarcza Google AdMob. Aby wyświetlać i mierzyć reklamy, pakiet Google Mobile Ads SDK może zbierać:</p>
@@ -692,39 +825,50 @@
 <p>Dane te zbiera i przetwarza Google zgodnie z <a href="https://policies.google.com/privacy?hl=pl">Polityką prywatności Google</a>. Zobacz też, <a href="https://policies.google.com/technologies/partner-sites?hl=pl">jak Google wykorzystuje informacje z aplikacji korzystających z jego usług</a>. Nie otrzymujemy tych danych w formie pozwalającej Cię zidentyfikować.</p>
 <p><strong>Twoje wybory.</strong> Na iOS Gra prosi o zgodę, zanim reklamy będą mogły używać Twojego identyfikatora reklamowego; możesz to zmienić w dowolnej chwili w Ustawienia → Prywatność i ochrona → Śledzenie. Na Androidzie możesz zresetować lub usunąć identyfikator w Ustawienia → Google → Reklamy (lub Ustawienia → Prywatność → Reklamy). W Europejskim Obszarze Gospodarczym, Wielkiej Brytanii i Szwajcarii Gra pyta o zgodę na reklamy spersonalizowane, zanim pokaże jakąkolwiek reklamę; wybór możesz później zmienić w Grze. Jeśli odmówisz, nadal mogą być wyświetlane reklamy niespersonalizowane.</p>
 
-<h2>3. Zakupy</h2>
+<h2 id="world-pl">3. Rekordy światowe (online)</h2>
+<p>Aby pokazywać rekordy światowe wspólne dla graczy na iPhonie i Androidzie, Gra tworzy dla Twojego urządzenia anonimowe konto w Google Firebase (bez e-maila, telefonu i hasła) i wysyła na nasz serwer:</p>
+<ul>
+  <li>losowy identyfikator konta i numer, aby Twój wiersz w tabelach należał do Ciebie (widoczny jako „Pasażer 4821”, dopóki nie wybierzesz pseudonimu);</li>
+  <li>wybrany pseudonim, jeśli go ustawisz — jest publicznie widoczny w tabelach;</li>
+  <li>najlepsze wyniki w trybach Klasyka, Chaos i Trasa wraz z godziną przejazdu, jego długością i liczbą znalezionych liczb, aby serwer mógł odrzucać niemożliwe wyniki;</li>
+  <li>zgłoszenia, które wysyłasz w sprawie pseudonimów innych graczy.</li>
+</ul>
+<p>Te dane przechowuje dla nas Google Firebase (Cloud Firestore i Cloud Functions, region europe-west1, Belgia); podczas przesyłania są szyfrowane. Inni gracze widzą tylko Twój pseudonim (lub „Pasażer” z numerem) i wyniki. Wyniki trybu Zen, ustawienia i wszystko z sekcji 1 zostają na telefonie. Do działania usługi Firebase przetwarza też dane techniczne, np. adres IP; zobacz <a href="https://policies.google.com/privacy?hl=pl">Politykę prywatności Google</a> i <a href="https://firebase.google.com/support/privacy">informacje o prywatności Firebase</a>.</p>
+<p><strong>Usuwanie danych.</strong> W Grze otwórz <b>DYSPOZYTORNIA → RANKING ŚWIATOWY → USUŃ DANE ONLINE</b>: pseudonim, wyniki i anonimowe konto są od razu usuwane z serwera. Możesz też do nas napisać (zob. Kontakt), a je usuniemy. Pseudonimy zgłoszone przez kilku graczy są usuwane automatycznie.</p>
+
+<h2>4. Zakupy</h2>
 <p>Opcjonalny zakup „Bez reklam” w całości obsługuje App Store (Apple) lub Google Play. Nie otrzymujemy Twojego imienia, danych karty ani danych rozliczeniowych — tylko potwierdzenie zakupu, aby Gra mogła go odblokować. Zobacz <a href="https://www.apple.com/legal/privacy/">Politykę prywatności Apple</a> i <a href="https://policies.google.com/privacy?hl=pl">Politykę prywatności Google</a>.</p>
 
-<h2>4. Powiadomienia</h2>
+<h2>5. Powiadomienia</h2>
 <p>Jeśli włączysz codzienne przypomnienie, Gra zaplanuje je na Twoim telefonie. Nie bierze w tym udziału żaden serwer i żadne dane powiadomień nie są wysyłane. Możesz je wyłączyć w Grze (Dyspozytornia) lub w ustawieniach telefonu.</p>
 
-<h2>5. Czego nie robimy</h2>
+<h2>6. Czego nie robimy</h2>
 <ul>
   <li>Nie prosimy o imię, e-mail, numer telefonu, kontakty, zdjęcia, aparat, mikrofon ani dokładną lokalizację.</li>
   <li>Nie prowadzimy własnej analityki i nie sprzedajemy danych osobowych.</li>
-  <li>Nie tworzymy kont ani profili użytkowników.</li>
+  <li>Nie wymagamy rejestracji; anonimowe konto rekordów światowych (sekcja 3) nie zawiera danych osobowych.</li>
 </ul>
 
-<h2>6. Dzieci</h2>
+<h2>7. Dzieci</h2>
 <p>Gra jest odpowiednia dla wszystkich, ale nie jest skierowana do dzieci poniżej 13 lat i świadomie nie zbieramy ich danych osobowych. Jeśli uważasz, że dziecko podało dane osobowe za pośrednictwem Gry, napisz do nas, a pomożemy je usunąć.</p>
 
-<h2>7. Twoje prawa</h2>
+<h2>8. Twoje prawa</h2>
 <p>W zależności od miejsca zamieszkania (np. na mocy RODO w Europie lub CCPA w Kalifornii) możesz mieć prawo dostępu do swoich danych osobowych, ich sprostowania lub usunięcia oraz sprzeciwu wobec ich przetwarzania. Ponieważ sami nie przechowujemy danych osobowych, prośby dotyczące danych reklamowych najlepiej kierować do Google (<a href="https://myaccount.google.com/data-and-privacy?hl=pl">ustawienia prywatności Google</a>). Zawsze możesz też napisać do nas — pomożemy. Masz również prawo wnieść skargę do organu nadzorczego ds. ochrony danych.</p>
 
-<h2>8. Przechowywanie i bezpieczeństwo</h2>
-<p>Dane na Twoim urządzeniu pozostają tam do czasu usunięcia Gry. Dane zbierane przez Google do celów reklamowych są przechowywane zgodnie z zasadami Google. Cały ruch sieciowy pakietu reklamowego jest szyfrowany.</p>
+<h2>9. Przechowywanie i bezpieczeństwo</h2>
+<p>Dane na Twoim urządzeniu pozostają tam do czasu usunięcia Gry. Dane zbierane przez Google do celów reklamowych są przechowywane zgodnie z zasadami Google. Cały ruch sieciowy pakietu reklamowego jest szyfrowany. Dane rekordów światowych pozostają na serwerze, dopóki ich nie usuniesz lub dopóki Gra nie przestanie oferować rekordów światowych.</p>
 
-<h2>9. Zmiany tej polityki</h2>
+<h2>10. Zmiany tej polityki</h2>
 <p>Jeśli zmienimy tę politykę, zaktualizujemy tę stronę i podaną wyżej datę. O istotnych zmianach poinformujemy też w opisie aktualizacji Gry.</p>
 
-<h2>10. Kontakt</h2>
+<h2>11. Kontakt</h2>
 <p>Pytania i prośby: <a href="mailto:numexpress.app@gmail.com">numexpress.app@gmail.com</a></p>
 </section>
 
 <section id="l-nl" lang="nl">
 <h1>Privacybeleid</h1>
-<div class="muted">Ingangsdatum: 2 november 2026. Bij verschillen met de Engelse versie is de Engelse versie leidend.</div>
-<p>NumExpress (het ‘Spel’) is een spel voor iOS en Android waarin je getallen zoekt, gemaakt door Samir Novruzov (‘wij’). Dit beleid legt uit welke gegevens het Spel verwerkt en waarom. Kort gezegd: het Spel heeft geen accounts, geen inlog en geen eigen servers.</p>
+<div class="muted">Ingangsdatum: 10 november 2026. Bij verschillen met de Engelse versie is de Engelse versie leidend.</div>
+<p>NumExpress (de „Game”) is een getallenzoekspel voor iOS en Android, gemaakt door Samir Novruzov („wij”). Dit beleid legt uit welke informatie de Game verwerkt en waarom. Het is eenvoudig: je hoeft je niet te registreren en de Game vraagt nooit om je e-mail, telefoonnummer of een wachtwoord. Op onze server staat alleen jouw regel in de wereldrecords (sectie 3).</p>
 
 <h2>1. Gegevens die alleen op je apparaat staan</h2>
 <p>Om je voortgang te onthouden, bewaart het Spel het volgende op je telefoon. Het verlaat je apparaat nooit en wij kunnen het niet zien:</p>
@@ -736,6 +880,7 @@
   <tr><td>Aantal Zen-hints en of ‘Zonder advertenties’ is gekocht</td><td>Spelfuncties</td></tr>
 </table></div>
 <p>Als je het Spel verwijdert, wordt dit allemaal verwijderd.</p>
+<p>Op de iPhone worden je sterren op de kaart en je records ook gekopieerd naar je eigen iCloud-account (Apple iCloud key-value-opslag), zodat een nieuwe iPhone of herinstallatie je voortgang behoudt. Wij zien deze kopie niet; het <a href="https://www.apple.com/legal/privacy/">Privacybeleid van Apple</a> is van toepassing. Op Android kan de systeemback-up in je Google-account op dezelfde manier een kopie bewaren.</p>
 
 <h2>2. Advertenties (Google AdMob)</h2>
 <p>Het Spel toont video-advertenties met beloning alleen als je er zelf voor kiest er een te bekijken (‘Haal de trein’, Zen-hints). Advertenties worden geleverd door Google AdMob. Om advertenties te tonen en te meten, kan de Google Mobile Ads SDK het volgende verzamelen:</p>
@@ -748,39 +893,50 @@
 <p>Deze gegevens worden verzameld en verwerkt door Google volgens het <a href="https://policies.google.com/privacy?hl=nl">Privacybeleid van Google</a>. Zie ook <a href="https://policies.google.com/technologies/partner-sites?hl=nl">hoe Google gegevens gebruikt van apps die de services van Google gebruiken</a>. Wij ontvangen deze gegevens niet in een vorm waarmee je te identificeren bent.</p>
 <p><strong>Je keuzes.</strong> Op iOS vraagt het Spel om toestemming voordat advertenties je advertentie-ID mogen gebruiken; je kunt dit altijd wijzigen via Instellingen → Privacy en beveiliging → Tracking. Op Android kun je je advertentie-ID resetten of verwijderen via Instellingen → Google → Advertenties (of Instellingen → Privacy → Advertenties). In de Europese Economische Ruimte, het Verenigd Koninkrijk en Zwitserland vraagt het Spel om je toestemming voor gepersonaliseerde advertenties voordat er een wordt getoond; je kunt je keuze later in het Spel wijzigen. Als je weigert, kun je nog steeds niet-gepersonaliseerde advertenties zien.</p>
 
-<h2>3. Aankopen</h2>
+<h2 id="world-nl">3. Wereldrecords (online)</h2>
+<p>Om wereldrecords te tonen die iPhone- en Android-spelers delen, maakt de Game voor je toestel een anoniem account aan bij Google Firebase (zonder e-mail, telefoon of wachtwoord) en stuurt naar onze server:</p>
+<ul>
+  <li>een willekeurige account-ID en een nummer, zodat jouw regel in de ranglijsten van jou is (getoond als „Reiziger 4821” tot je een bijnaam kiest);</li>
+  <li>de bijnaam die je kiest, als je dat doet — die is openbaar zichtbaar in de ranglijsten;</li>
+  <li>je beste scores in Klassiek, Chaos en Route, met het tijdstip en de duur van de rit en hoeveel getallen je vond, zodat de server onmogelijke scores kan weigeren;</li>
+  <li>meldingen die je stuurt over bijnamen van andere spelers.</li>
+</ul>
+<p>Google Firebase bewaart deze gegevens voor ons (Cloud Firestore en Cloud Functions, regio europe-west1, België); tijdens verzending zijn ze versleuteld. Andere spelers zien alleen je bijnaam (of „Reiziger” met nummer) en je scores. Zen-resultaten, instellingen en alles uit sectie 1 blijven op je telefoon. Om de dienst te laten werken verwerkt Firebase ook technische gegevens zoals je IP-adres; zie het <a href="https://policies.google.com/privacy?hl=nl">Privacybeleid van Google</a> en de <a href="https://firebase.google.com/support/privacy">privacy-informatie van Firebase</a>.</p>
+<p><strong>Je gegevens wissen.</strong> Open in de Game <b>VERKEERSPOST → WERELDRANGLIJST → ONLINEGEGEVENS WISSEN</b>: je bijnaam, scores en anonieme account worden meteen van de server verwijderd. Je kunt ons ook schrijven (zie Contact), dan wissen wij ze. Bijnamen die door meerdere spelers worden gemeld, worden automatisch verwijderd.</p>
+
+<h2>4. Aankopen</h2>
 <p>De optionele aankoop ‘Zonder advertenties’ wordt volledig afgehandeld door de App Store (Apple) of Google Play. Wij ontvangen je naam, betaalkaart of factuurgegevens niet — alleen een bevestiging van de aankoop, zodat het Spel deze kan activeren. Zie het <a href="https://www.apple.com/legal/privacy/">Privacybeleid van Apple</a> en het <a href="https://policies.google.com/privacy?hl=nl">Privacybeleid van Google</a>.</p>
 
-<h2>4. Meldingen</h2>
+<h2>5. Meldingen</h2>
 <p>Als je de dagelijkse herinnering aanzet, plant het Spel die op je telefoon. Er is geen server bij betrokken en er worden geen meldingsgegevens verstuurd. Je kunt de herinnering uitzetten in het Spel (Verkeerspost) of in de instellingen van je telefoon.</p>
 
-<h2>5. Wat we niet doen</h2>
+<h2>6. Wat we niet doen</h2>
 <ul>
   <li>We vragen niet om je naam, e-mail, telefoonnummer, contacten, foto’s, camera, microfoon of precieze locatie.</li>
   <li>We gebruiken geen eigen analysetools en verkopen geen persoonsgegevens.</li>
-  <li>We maken geen accounts of gebruikersprofielen aan.</li>
+  <li>We vragen je niet om je te registreren; het anonieme wereldrecord-account (sectie 3) bevat geen persoonsgegevens.</li>
 </ul>
 
-<h2>6. Kinderen</h2>
+<h2>7. Kinderen</h2>
 <p>Het Spel is geschikt voor iedereen, maar is niet gericht op kinderen jonger dan 13 jaar, en we verzamelen niet bewust hun persoonsgegevens. Denk je dat een kind via het Spel persoonsgegevens heeft gegeven, neem dan contact met ons op en we helpen ze te verwijderen.</p>
 
-<h2>7. Je rechten</h2>
+<h2>8. Je rechten</h2>
 <p>Afhankelijk van waar je woont (bijvoorbeeld onder de AVG in Europa of de CCPA in Californië) heb je mogelijk het recht op inzage, correctie of verwijdering van je persoonsgegevens en het recht bezwaar te maken tegen de verwerking. Omdat wij zelf geen persoonsgegevens bewaren, kun je verzoeken over advertentiegegevens het beste aan Google richten (<a href="https://myaccount.google.com/data-and-privacy?hl=nl">privacyinstellingen van Google</a>). Je kunt ons altijd mailen, we helpen je graag. Je hebt ook het recht een klacht in te dienen bij een toezichthouder voor gegevensbescherming.</p>
 
-<h2>8. Bewaartermijn en beveiliging</h2>
-<p>Gegevens op je apparaat blijven daar tot je het Spel verwijdert. Gegevens die Google voor advertenties verzamelt, worden bewaard volgens het beleid van Google. Al het netwerkverkeer van de advertentie-SDK is versleuteld.</p>
+<h2>9. Bewaartermijn en beveiliging</h2>
+<p>Gegevens op je apparaat blijven daar tot je het Spel verwijdert. Gegevens die Google voor advertenties verzamelt, worden bewaard volgens het beleid van Google. Al het netwerkverkeer van de advertentie-SDK is versleuteld. Wereldrecordgegevens blijven op de server tot je ze wist, of tot de Game geen wereldrecords meer aanbiedt.</p>
 
-<h2>9. Wijzigingen in dit beleid</h2>
+<h2>10. Wijzigingen in dit beleid</h2>
 <p>Als we dit beleid wijzigen, werken we deze pagina en de ingangsdatum hierboven bij. Belangrijke wijzigingen vermelden we ook in de updatenotities van het Spel.</p>
 
-<h2>10. Contact</h2>
+<h2>11. Contact</h2>
 <p>Vragen of verzoeken: <a href="mailto:numexpress.app@gmail.com">numexpress.app@gmail.com</a></p>
 </section>
 
 <section id="l-pt" lang="pt-BR">
 <h1>Política de privacidade</h1>
-<div class="muted">Data de vigência: 2 de novembro de 2026. Em caso de divergência com a versão em inglês, prevalece a versão em inglês.</div>
-<p>NumExpress (o “Jogo”) é um jogo de encontrar números para iOS e Android criado por Samir Novruzov (“nós”). Esta política explica quais informações o Jogo trata e por quê. É simples: o Jogo não tem contas, login nem servidores próprios.</p>
+<div class="muted">Data de vigência: 10 de novembro de 2026. Em caso de divergência com a versão em inglês, prevalece a versão em inglês.</div>
+<p>NumExpress (o “Jogo”) é um jogo de encontrar números para iOS e Android feito por Samir Novruzov (“nós”). Esta política explica quais informações o Jogo trata e por quê. É simples: não há cadastro, e o Jogo nunca pede seu e-mail, telefone ou senha. A única coisa guardada no nosso servidor é a sua linha nos recordes mundiais (seção 3).</p>
 
 <h2>1. Informações guardadas só no seu dispositivo</h2>
 <p>Para lembrar o seu progresso, o Jogo salva o seguinte no seu celular. Esses dados nunca saem do seu dispositivo e nós não conseguimos vê-los:</p>
@@ -792,6 +948,7 @@
   <tr><td>Número de dicas do Zen e se “Sem anúncios” foi comprado</td><td>Recursos do jogo</td></tr>
 </table></div>
 <p>Ao excluir o Jogo, tudo isso é excluído.</p>
+<p>No iPhone, suas estrelas do mapa e seus recordes também são copiados para a sua própria conta do iCloud (armazenamento chave-valor do Apple iCloud), para que um iPhone novo ou uma reinstalação mantenha seu progresso. Não podemos ver essa cópia; vale a <a href="https://www.apple.com/legal/privacy/">Política de Privacidade da Apple</a>. No Android, o backup do sistema na sua conta Google pode guardar uma cópia da mesma forma.</p>
 
 <h2>2. Publicidade (Google AdMob)</h2>
 <p>O Jogo mostra anúncios em vídeo premiados apenas quando você escolhe assistir a um (“Pegar o trem”, dicas do Zen). Os anúncios são fornecidos pelo Google AdMob. Para exibir e medir anúncios, o SDK Google Mobile Ads pode coletar:</p>
@@ -804,39 +961,50 @@
 <p>Esses dados são coletados e tratados pelo Google de acordo com a <a href="https://policies.google.com/privacy?hl=pt-BR">Política de Privacidade do Google</a>. Veja também <a href="https://policies.google.com/technologies/partner-sites?hl=pt-BR">como o Google usa informações de apps que usam seus serviços</a>. Não recebemos esses dados de forma que identifique você.</p>
 <p><strong>Suas escolhas.</strong> No iOS, o Jogo pede sua permissão antes que os anúncios possam usar seu identificador de publicidade; você pode mudar isso a qualquer momento em Ajustes → Privacidade e Segurança → Rastreamento. No Android, você pode redefinir ou excluir seu ID de publicidade em Configurações → Google → Anúncios (ou Configurações → Privacidade → Anúncios). No Espaço Econômico Europeu, no Reino Unido e na Suíça, o Jogo pede seu consentimento para anúncios personalizados antes de exibir qualquer um; você pode mudar sua escolha depois pelo Jogo. Se recusar, ainda poderá ver anúncios não personalizados.</p>
 
-<h2>3. Compras</h2>
+<h2 id="world-pt">3. Recordes mundiais (online)</h2>
+<p>Para mostrar recordes mundiais compartilhados por jogadores de iPhone e Android, o Jogo cria para o seu aparelho uma conta anônima no Google Firebase (sem e-mail, telefone ou senha) e envia ao nosso servidor:</p>
+<ul>
+  <li>um ID de conta aleatório e um número, para que a sua linha nas tabelas seja sua (aparece como “Passageiro 4821” até você escolher um apelido);</li>
+  <li>o apelido que você escolher, se escolher — ele aparece publicamente nas tabelas;</li>
+  <li>suas melhores pontuações no Clássico, Caos e Rota, com o horário da corrida, a duração e quantos números você encontrou, para que o servidor recuse pontuações impossíveis;</li>
+  <li>denúncias que você envia sobre apelidos de outros jogadores.</li>
+</ul>
+<p>Esses dados são guardados para nós pelo Google Firebase (Cloud Firestore e Cloud Functions, região europe-west1, Bélgica) e criptografados no envio. Outros jogadores veem só o seu apelido (ou “Passageiro” com número) e suas pontuações. Resultados do Zen, configurações e tudo da seção 1 ficam no seu celular. Para funcionar, o Firebase também trata dados técnicos como o seu endereço IP; veja a <a href="https://policies.google.com/privacy?hl=pt-BR">Política de Privacidade do Google</a> e as <a href="https://firebase.google.com/support/privacy">informações de privacidade do Firebase</a>.</p>
+<p><strong>Apagar seus dados.</strong> No Jogo abra <b>CONTROLE → RECORDES MUNDIAIS → APAGAR DADOS ONLINE</b>: seu apelido, pontuações e conta anônima são removidos do servidor na hora. Você também pode nos escrever (veja Contato) e nós apagamos. Apelidos denunciados por vários jogadores são removidos automaticamente.</p>
+
+<h2>4. Compras</h2>
 <p>A compra opcional “Sem anúncios” é feita inteiramente pela App Store (Apple) ou pelo Google Play. Não recebemos seu nome, cartão ou dados de cobrança — apenas a confirmação da compra, para que o Jogo possa liberá-la. Veja a <a href="https://www.apple.com/legal/privacy/">Política de Privacidade da Apple</a> e a <a href="https://policies.google.com/privacy?hl=pt-BR">Política de Privacidade do Google</a>.</p>
 
-<h2>4. Notificações</h2>
+<h2>5. Notificações</h2>
 <p>Se você ativar o lembrete diário, o Jogo o agenda no seu celular. Nenhum servidor é envolvido e nenhum dado de notificação é enviado. Você pode desativá-lo no Jogo (Controle) ou nas configurações do celular.</p>
 
-<h2>5. O que não fazemos</h2>
+<h2>6. O que não fazemos</h2>
 <ul>
   <li>Não pedimos seu nome, e-mail, telefone, contatos, fotos, câmera, microfone ou localização precisa.</li>
   <li>Não usamos análises próprias e não vendemos dados pessoais.</li>
-  <li>Não criamos contas nem perfis de usuário.</li>
+  <li>Não pedimos cadastro; a conta anônima dos recordes mundiais (seção 3) não tem dados pessoais.</li>
 </ul>
 
-<h2>6. Crianças</h2>
+<h2>7. Crianças</h2>
 <p>O Jogo é adequado para todos os públicos, mas não é direcionado a crianças menores de 13 anos, e não coletamos intencionalmente seus dados pessoais. Se você acredita que uma criança forneceu dados pessoais pelo Jogo, fale conosco e ajudaremos a removê-los.</p>
 
-<h2>7. Seus direitos</h2>
+<h2>8. Seus direitos</h2>
 <p>Dependendo de onde você mora (por exemplo, pela LGPD no Brasil, pelo RGPD na Europa ou pela CCPA na Califórnia), você pode ter o direito de acessar, corrigir ou excluir seus dados pessoais e de se opor ao seu tratamento. Como nós mesmos não armazenamos dados pessoais, é melhor enviar pedidos sobre dados de publicidade ao Google (<a href="https://myaccount.google.com/data-and-privacy?hl=pt-BR">controles de privacidade do Google</a>). Você sempre pode nos escrever, e nós ajudaremos. Você também tem o direito de apresentar uma reclamação a uma autoridade de proteção de dados.</p>
 
-<h2>8. Retenção e segurança</h2>
-<p>Os dados guardados no seu dispositivo ficam lá até você excluir o Jogo. Os dados coletados pelo Google para publicidade são mantidos conforme as políticas do Google. Todo o tráfego de rede do SDK de anúncios é criptografado.</p>
+<h2>9. Retenção e segurança</h2>
+<p>Os dados guardados no seu dispositivo ficam lá até você excluir o Jogo. Os dados coletados pelo Google para publicidade são mantidos conforme as políticas do Google. Todo o tráfego de rede do SDK de anúncios é criptografado. Os dados dos recordes mundiais ficam no servidor até você apagá-los ou até o Jogo deixar de oferecer recordes mundiais.</p>
 
-<h2>9. Alterações nesta política</h2>
+<h2>10. Alterações nesta política</h2>
 <p>Se mudarmos esta política, atualizaremos esta página e a data de vigência acima. Alterações importantes também serão informadas nas notas de atualização do Jogo.</p>
 
-<h2>10. Contato</h2>
+<h2>11. Contato</h2>
 <p>Dúvidas ou pedidos: <a href="mailto:numexpress.app@gmail.com">numexpress.app@gmail.com</a></p>
 </section>
 
 <section id="l-uk" lang="uk">
 <h1>Політика конфіденційності</h1>
-<div class="muted">Дата набрання чинності: 2 листопада 2026 р. У разі розбіжностей з англійською версією перевагу має англійська.</div>
-<p>NumExpress («Гра») — гра на пошук чисел для iOS та Android від Саміра Новрузова («ми»). Тут описано, яку інформацію обробляє Гра і навіщо. Усе просто: у Грі немає облікових записів, входу та власних серверів.</p>
+<div class="muted">Дата набрання чинності: 10 листопада 2026 р. У разі розбіжностей з англійською версією перевагу має англійська.</div>
+<p>NumExpress («Гра») — гра на пошук чисел для iOS і Android від Саміра Новрузова («ми»). Тут описано, яку інформацію обробляє Гра і навіщо. Усе просто: реєстрації немає, і Гра ніколи не питає пошту, телефон чи пароль. На нашому сервері зберігається лише ваш запис у світових рекордах (розділ 3).</p>
 
 <h2>1. Що зберігається лише на вашому пристрої</h2>
 <p>Щоб памʼятати ваш прогрес, Гра зберігає на телефоні таке. Ці дані нікуди не надсилаються, і ми їх не бачимо:</p>
@@ -848,6 +1016,7 @@
   <tr><td>Кількість підказок у Дзені та покупка «Без реклами»</td><td>Функції гри</td></tr>
 </table></div>
 <p>Видалення Гри видаляє все це.</p>
+<p>На iPhone зірки на мапі та рекорди також копіюються у ваш власний iCloud (сховище «ключ–значення» Apple iCloud), щоб прогрес зберігся на новому iPhone або після перевстановлення. Ми цієї копії не бачимо; на неї поширюється <a href="https://www.apple.com/legal/privacy/">Політика конфіденційності Apple</a>. На Android системна резервна копія у вашому акаунті Google може зберігати копію так само.</p>
 
 <h2>2. Реклама (Google AdMob)</h2>
 <p>Гра показує відеорекламу з винагородою лише тоді, коли ви самі вирішили її переглянути («Наздогнати поїзд», підказки в Дзені). Рекламу надає Google AdMob. Щоб показувати й вимірювати рекламу, SDK Google Mobile Ads може збирати:</p>
@@ -860,32 +1029,43 @@
 <p>Ці дані збирає та обробляє Google відповідно до <a href="https://policies.google.com/privacy?hl=uk">Політики конфіденційності Google</a>. Див. також, <a href="https://policies.google.com/technologies/partner-sites?hl=uk">як Google використовує дані із застосунків партнерів</a>. Ми не отримуємо ці дані у вигляді, що дозволяє встановити вашу особу.</p>
 <p><strong>Ваш вибір.</strong> На iOS Гра запитує дозвіл, перш ніж реклама зможе використовувати рекламний ідентифікатор; змінити рішення можна будь-коли в Параметри → Приватність і безпека → Відстеження. На Android рекламний ідентифікатор можна скинути або видалити в Налаштування → Google → Реклама (або Налаштування → Конфіденційність → Реклама). У Європейській економічній зоні, Великій Британії та Швейцарії Гра запитує згоду на персоналізовану рекламу до її показу; змінити вибір можна пізніше в Грі. Якщо ви відмовитеся, вам може показуватися неперсоналізована реклама.</p>
 
-<h2>3. Покупки</h2>
+<h2 id="world-uk">3. Світові рекорди (онлайн)</h2>
+<p>Щоб показувати світові рекорди, спільні для гравців на iPhone і Android, Гра створює для вашого пристрою анонімний акаунт у Google Firebase (без пошти, телефону й пароля) і надсилає на наш сервер:</p>
+<ul>
+  <li>випадковий ID акаунта й номер, щоб ваш рядок у таблицях був вашим (поки немає ніка, він показується як «Пасажир 4821»);</li>
+  <li>нік, якщо ви його обрали, — його видно всім у таблицях;</li>
+  <li>найкращі результати в Класиці, Хаосі й Маршруті з часом поїздки, її тривалістю та кількістю знайдених чисел — щоб сервер відхиляв неможливі результати;</li>
+  <li>скарги, які ви надсилаєте на ніки інших гравців.</li>
+</ul>
+<p>Ці дані зберігає для нас Google Firebase (Cloud Firestore і Cloud Functions, регіон europe-west1, Бельгія), під час передавання вони шифруються. Інші гравці бачать лише ваш нік (або «Пасажир» з номером) і результати. Результати Дзену, налаштування й усе з розділу 1 залишаються на телефоні. Для роботи сервісу Firebase також обробляє технічні дані, наприклад IP-адресу; див. <a href="https://policies.google.com/privacy?hl=uk">Політику конфіденційності Google</a> і <a href="https://firebase.google.com/support/privacy">відомості про конфіденційність Firebase</a>.</p>
+<p><strong>Видалення даних.</strong> У Грі відкрийте <b>ДИСПЕТЧЕРСЬКА → СВІТОВІ РЕКОРДИ → ВИДАЛИТИ ОНЛАЙН-ДАНІ</b>: нік, результати й анонімний акаунт одразу видаляються з сервера. Можна також написати нам (див. «Зв’язок»), і ми їх видалимо. Ніки, на які поскаржилися кілька гравців, видаляються автоматично.</p>
+
+<h2>4. Покупки</h2>
 <p>Необовʼязкову покупку «Без реклами» повністю проводить App Store (Apple) або Google Play. Ми не отримуємо ваше імʼя, дані картки чи платіжні дані — лише підтвердження покупки, щоб Гра її увімкнула. Див. <a href="https://www.apple.com/legal/privacy/">Політику конфіденційності Apple</a> та <a href="https://policies.google.com/privacy?hl=uk">Політику конфіденційності Google</a>.</p>
 
-<h2>4. Сповіщення</h2>
+<h2>5. Сповіщення</h2>
 <p>Якщо ви увімкнули щоденне нагадування, Гра планує його на самому телефоні. Сервер не задіяний, дані нікуди не надсилаються. Вимкнути нагадування можна в Грі (Диспетчерська) або в налаштуваннях телефону.</p>
 
-<h2>5. Чого ми не робимо</h2>
+<h2>6. Чого ми не робимо</h2>
 <ul>
   <li>Не запитуємо імʼя, пошту, телефон, контакти, фото, камеру, мікрофон і точне місцезнаходження.</li>
   <li>Не ведемо власної аналітики й не продаємо персональні дані.</li>
-  <li>Не створюємо облікові записи та профілі користувачів.</li>
+  <li>Не вимагаємо реєстрації; анонімний акаунт світових рекордів (розділ 3) не містить особистих даних.</li>
 </ul>
 
-<h2>6. Діти</h2>
+<h2>7. Діти</h2>
 <p>Гра підходить для широкої аудиторії, але не призначена для дітей до 13 років, і ми свідомо не збираємо їхні персональні дані. Якщо ви вважаєте, що дитина передала персональні дані через Гру, напишіть нам, і ми допоможемо їх видалити.</p>
 
-<h2>7. Ваші права</h2>
+<h2>8. Ваші права</h2>
 <p>Залежно від місця проживання (наприклад, за GDPR у Європі чи CCPA в Каліфорнії) ви можете мати право на доступ до даних, їх виправлення й видалення, а також право заперечити проти обробки. Оскільки ми самі персональних даних не зберігаємо, запити щодо рекламних даних краще надсилати до Google (<a href="https://myaccount.google.com/data-and-privacy?hl=uk">налаштування конфіденційності Google</a>). Ви завжди можете написати нам, і ми допоможемо.</p>
 
-<h2>8. Зберігання та захист</h2>
-<p>Дані на пристрої зберігаються, доки ви не видалите Гру. Дані, зібрані Google для реклами, зберігаються за правилами Google. Мережевий трафік рекламного SDK шифрується.</p>
+<h2>9. Зберігання та захист</h2>
+<p>Дані на пристрої зберігаються, доки ви не видалите Гру. Дані, зібрані Google для реклами, зберігаються за правилами Google. Мережевий трафік рекламного SDK шифрується. Дані світових рекордів зберігаються на сервері, доки ви їх не видалите або доки Гра не припинить пропонувати світові рекорди.</p>
 
-<h2>9. Зміни</h2>
+<h2>10. Зміни</h2>
 <p>Якщо політика зміниться, ми оновимо цю сторінку й дату набрання чинності. Про суттєві зміни також буде сказано в описі оновлення Гри.</p>
 
-<h2>10. Звʼязок</h2>
+<h2>11. Звʼязок</h2>
 <p>Питання та запити: <a href="mailto:numexpress.app@gmail.com">numexpress.app@gmail.com</a></p>
 </section>
 
